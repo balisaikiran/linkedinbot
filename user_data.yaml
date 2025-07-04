@@ -1,0 +1,117 @@
+# User Data for LinkedIn Easy Apply Bot
+# Updated with Sai Kiran Bali's real information
+
+personal_info:
+  full_name: "Sai Kiran Bali"
+  email: "saiashok49@gmail.com"
+  phone: "+919041174022"
+  address: "Noida, Uttar Pradesh, India"
+  linkedin: "https://linkedin.com/in/balisaikiran"
+  website: ""
+  github: "https://github.com/balisaikiran"
+
+education:
+  - institution: "JNTU"
+    degree: "Bachelor of Technology"
+    field_of_study: "Computer Science and Engineering"
+    start_date: "2015-08"
+    end_date: "2019-05"
+    gpa: ""
+
+experience:
+  - company: "MeetDoors (US)"
+    title: "Lead Software Engineer"
+    location: "Remote"
+    start_date: "2023-03"
+    end_date: "Present"
+    description: |
+      - Architected and built a real estate platform using Django, React, PostgreSQL, and AWS
+      - Developed scalable APIs, integrated BrightData and RentCast, and managed CI/CD pipelines
+      - Improved platform uptime to 99.9% and user engagement by 35%
+
+  - company: "SharpData (US)"
+    title: "Senior Software Development Engineer"
+    location: "Remote"
+    start_date: "2023-12"
+    end_date: "Present"
+    description: |
+      - Built analytics dashboards with React and Django, delivering dynamic visualizations
+      - Mentored juniors on Automation Platform and integrated data pipelines from CRM tools
+
+  - company: "Versatile (Kuwait)"
+    title: "Senior Software Engineer"
+    location: "Remote"
+    start_date: "2023-02"
+    end_date: "2023-12"
+    description: |
+      - Directed front-end development for Oil & Gas Drill Explorer project with Angular & Spring Boot
+      - Improved platform engagement by 40% through enhanced UX and visualization tools
+
+  - company: "Gourmet Garden (India)"
+    title: "Full Stack Developer"
+    location: "Bangalore"
+    start_date: "2022-05"
+    end_date: "2023-02"
+    description: |
+      - Migrated CRM from PHP to Django & React, reduced server costs by 65%
+      - Integrated WhatsApp bots and optimized backend API performance
+
+  - company: "HummingWave (India)"
+    title: "Senior Software Engineer (SDE-II)"
+    location: "Bangalore"
+    start_date: "2021-12"
+    end_date: "2022-05"
+    description: |
+      - Worked on fintech platforms LendingKart & Finnable, focusing on integrations and optimizations
+
+  - company: "HackerEarth (India)"
+    title: "Technical Content Specialist & Full Stack Problem Setter"
+    location: "Bangalore"
+    start_date: "2018-11"
+    end_date: "2021-12"
+    description: |
+      - Created backend-heavy coding challenges, authored technical tutorials, and managed hackathons
+
+skills:
+  technical:
+    - "Python"
+    - "JavaScript"
+    - "TypeScript"
+    - "React"
+    - "Angular"
+    - "Node.js"
+    - "Django"
+    - "FastAPI"
+    - "Spring Boot"
+    - "SQL & PostgreSQL"
+    - "MongoDB"
+    - "AWS (Lambda, EC2, S3, RDS)"
+    - "Docker"
+    - "Kubernetes"
+    - "CI/CD (GitHub Actions)"
+  soft:
+    - "Ownership"
+    - "Problem Solving"
+    - "Collaboration"
+    - "Mentoring"
+    - "Attention to Detail"
+
+languages:
+  - language: "English"
+    proficiency: "Fluent"
+  - language: "Hindi"
+    proficiency: "Native"
+
+certifications: []
+
+projects:
+  - name: "Real Estate Profitability Analyzer"
+    description: "Built a full platform integrating FastAPI, React, and external APIs to predict ROI on properties."
+    url: "https://github.com/balisaikiran"
+
+preferences:
+  job_type: ["Full-time", "Remote"]
+  willing_to_relocate: true
+  desired_salary: "$60,000 - $80,000 USD yearly"
+  work_authorization: "India Citizen, open to global remote roles"
+  availability: "Immediate"
