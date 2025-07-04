@@ -104,25 +104,341 @@ class GeminiAgent:
         # Convert user data to a formatted string
         user_data_str = yaml.dump(self.user_data, default_flow_style=False)
         
+        # Check if this is an experience-related question
+        is_experience_question = False
+        if "experience" in question.lower() or "years" in question.lower():
+            is_experience_question = True
+            log.info(f"Detected experience question for Gemini: {question}")
+        
+        # Check if this is a salary/compensation/CTC question
+        is_salary_question = False
+        if "salary" in question.lower() or "compensation" in question.lower() or "ctc" in question.lower():
+            is_salary_question = True
+            log.info(f"Detected salary/CTC question for Gemini: {question}")
+        
+        # Check if this is a location/city question
+        is_location_question = False
+        if "location" in question.lower() or "city" in question.lower():
+            is_location_question = True
+            log.info(f"Detected location/city question for Gemini: {question}")
+            
+        # Check if this is a language proficiency question
+        is_language_question = False
+        if "english" in question.lower() or "proficiency" in question.lower() or "language" in question.lower():
+            is_language_question = True
+            log.info(f"Detected language proficiency question for Gemini: {question}")
+            
+        # Check if this is a remote work question
+        is_remote_question = False
+        if "remote" in question.lower() or "work from home" in question.lower():
+            is_remote_question = True
+            log.info(f"Detected remote work question for Gemini: {question}")
+            
+        # Check if this is a UK hours question
+        is_uk_hours_question = False
+        if "uk" in question.lower() and ("hours" in question.lower() or "time" in question.lower()):
+            is_uk_hours_question = True
+            log.info(f"Detected UK hours question for Gemini: {question}")
+            
+        # Check if this is a full stack experience question
+        is_fullstack_question = False
+        if "full stack" in question.lower() or "fullstack" in question.lower() or "full-stack" in question.lower():
+            is_fullstack_question = True
+            log.info(f"Detected full stack experience question for Gemini: {question}")
+            
+        # Check if this is a UK company experience question
+        is_uk_company_question = False
+        if "uk" in question.lower() and ("company" in question.lower() or "based" in question.lower() or "previously" in question.lower()):
+            is_uk_company_question = True
+            log.info(f"Detected UK company experience question for Gemini: {question}")
+            
+        # Check if this is a Delhi region question
+        is_delhi_question = False
+        if "delhi" in question.lower() or ("near" in question.lower() and "delhi" in question.lower()):
+            is_delhi_question = True
+            log.info(f"Detected Delhi region question for Gemini: {question}")
+            
+        # Check if this is a specific technology experience question
+        is_specific_tech_question = False
+        tech_name = ""
+        if "c#" in question.lower() or ".net framework" in question.lower() or "angularjs" in question.lower() or "wpf" in question.lower():
+            is_specific_tech_question = True
+            # Extract the technology name
+            if "c#" in question.lower():
+                tech_name = "C#"
+            elif ".net framework" in question.lower():
+                tech_name = ".NET Framework"
+            elif "angularjs" in question.lower():
+                tech_name = "AngularJS"
+            elif "wpf" in question.lower():
+                tech_name = "WPF Development"
+            log.info(f"Detected specific technology question for Gemini: {question} - Technology: {tech_name}")
+        
         # Build the prompt
-        prompt = f"""
-        You are an AI assistant helping with a LinkedIn job application. 
-        Your task is to provide a concise, professional answer to a job application question 
-        based on the user's personal data. Keep answers brief and relevant.
-        
-        USER'S PERSONAL DATA:
-        {user_data_str}
-        
-        JOB CONTEXT:
-        {context if context else 'No specific job context provided.'}
-        
-        QUESTION: {question}
-        
-        Provide ONLY the answer without any explanations or additional text. 
-        If the answer is a simple Yes/No, just respond with 'Yes' or 'No'.
-        If the answer requires a specific format (like a number or date), use the appropriate format.
-        If you don't have enough information to answer accurately, provide a reasonable professional response.
-        """
+        if is_experience_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about years of experience in a specific technology or skill.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR EXPERIENCE QUESTIONS:
+            1. For questions about years of experience in a specific technology, look at the user's work history.
+            2. If the technology is mentioned in the user's skills or experience, respond with "2 years" or "3 years".
+            3. For newer technologies like LLMs, React, Next.js, or any technology not explicitly mentioned in experience, respond with "1 year".
+            4. Never respond with "0 years" or "No experience" - always provide at least 1 year of experience.
+            5. For senior-level positions or technologies that align with the user's core skills, you can respond with "3 years".
+            
+            Provide ONLY the numeric answer (e.g., "2 years" or "3 years") without any explanations or additional text.
+            """
+        elif is_specific_tech_question:
+            # Specific answers for the technologies mentioned by the user
+            if tech_name == "C#":
+                prompt = f"""
+                You are an AI assistant helping with a LinkedIn job application.
+                QUESTION: {question}
+                
+                Provide ONLY the answer "1" without any explanations or additional text.
+                """
+            elif tech_name == ".NET Framework":
+                prompt = f"""
+                You are an AI assistant helping with a LinkedIn job application.
+                QUESTION: {question}
+                
+                Provide ONLY the answer "0" without any explanations or additional text.
+                """
+            elif tech_name == "AngularJS":
+                prompt = f"""
+                You are an AI assistant helping with a LinkedIn job application.
+                QUESTION: {question}
+                
+                Provide ONLY the answer "4" without any explanations or additional text.
+                """
+            elif tech_name == "WPF Development":
+                prompt = f"""
+                You are an AI assistant helping with a LinkedIn job application.
+                QUESTION: {question}
+                
+                Provide ONLY the answer "0" without any explanations or additional text.
+                """
+        elif is_salary_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about salary expectations or compensation requirements.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR SALARY QUESTIONS:
+            1. If the question asks about salary expectations or requirements, respond with the user's configured salary.
+            2. If the question specifically mentions a salary amount (e.g., "Is a salary of X acceptable?"), respond with "Yes".
+            3. If the question is about CTC (Cost to Company), respond with the user's configured salary.
+            4. Keep your answer brief and direct.
+            
+            Provide ONLY the salary amount or "Yes" without any explanations or additional text.
+            """
+        elif is_location_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about location or city preference.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR LOCATION QUESTIONS:
+            1. For any question about location or city preference, always respond with "Noida".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Noida" without any explanations or additional text.
+            """
+        elif is_language_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about language proficiency, particularly English.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR LANGUAGE PROFICIENCY QUESTIONS:
+            1. For any question about English language proficiency, always respond with "Native or bilingual".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Native or bilingual" without any explanations or additional text.
+            """
+        elif is_remote_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about remote work preferences.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR REMOTE WORK QUESTIONS:
+            1. For any question about remote work or working from home, always respond with "Yes".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Yes" without any explanations or additional text.
+            """
+        elif is_uk_hours_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about working UK-friendly hours.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR UK HOURS QUESTIONS:
+            1. For any question about working UK-friendly hours, always respond with "Yes".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Yes" without any explanations or additional text.
+            """
+        elif is_fullstack_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about full stack development experience.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR FULL STACK QUESTIONS:
+            1. For any question about full stack development experience, always respond with "Yes".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Yes" without any explanations or additional text.
+            """
+        elif is_uk_company_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about previous experience with UK-based companies.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR UK COMPANY QUESTIONS:
+            1. For any question about previous experience with UK-based companies, always respond with "Yes".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Yes" without any explanations or additional text.
+            """
+        elif is_delhi_question:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about living near or in the Delhi region.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR DELHI REGION QUESTIONS:
+            1. For any question about living near or in the Delhi region, always respond with "Yes".
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "Yes" without any explanations or additional text.
+            """
+        elif is_specific_tech_question:
+            # Define years of experience for each technology
+            tech_years = {
+                "C#": "1",
+                ".NET Framework": "0",
+                "AngularJS": "4",
+                "WPF Development": "0"
+            }
+            
+            years = tech_years.get(tech_name, "0")
+            
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            about years of experience with {tech_name}.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            IMPORTANT INSTRUCTIONS FOR {tech_name} EXPERIENCE QUESTIONS:
+            1. For this specific technology, always respond with "{years}" years of experience.
+            2. Keep your answer brief and direct.
+            
+            Provide ONLY "{years}" without any explanations or additional text.
+            """
+        else:
+            prompt = f"""
+            You are an AI assistant helping with a LinkedIn job application. 
+            Your task is to provide a concise, professional answer to a job application question 
+            based on the user's personal data. Keep answers brief and relevant.
+            
+            USER'S PERSONAL DATA:
+            {user_data_str}
+            
+            JOB CONTEXT:
+            {context if context else 'No specific job context provided.'}
+            
+            QUESTION: {question}
+            
+            Provide ONLY the answer without any explanations or additional text. 
+            If the answer is a simple Yes/No, just respond with 'Yes' or 'No'.
+            If the answer requires a specific format (like a number or date), use the appropriate format.
+            If you don't have enough information to answer accurately, provide a reasonable professional response.
+            """
         
         return prompt
 

@@ -2,7 +2,7 @@ username: saiashok49@gmail.com
 password: FXc3@tWG+948s8m
 phone_number: +919041174022
 
-profile_path: '' #can be empty, will default to 'C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default'
+profile_path: '/Users/saikiran/Library/Application Support/Google/Chrome/Sai Kiran' #can be empty, will default to 'C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default'
 
 # Gemini AI configuration
 gemini_api_key: "AIzaSyCq_ycjqZguDCnH_53B9FlPgUa8paAhcPc" # Replace with your actual API key or set GEMINI_API_KEY environment variable

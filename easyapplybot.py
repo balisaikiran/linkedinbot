@@ -791,19 +791,375 @@ class EasyApplyBot:
                 if select_elements:
                     try:
                         for select_element in select_elements:
-                            select = WebDriverWait(self.browser, 3).until(
-                                EC.element_to_be_clickable((By.XPATH, f"//select[contains(@id, 'dropdown')]"))
-                            )
-                            select.click()
-                            time.sleep(0.5)
+                            # Try to find the select element directly first
+                            try:
+                                select = select_element
+                                select.click()
+                                time.sleep(0.5)
+                            except Exception:
+                                # Fall back to the previous method if direct click fails
+                                try:
+                                    select = WebDriverWait(self.browser, 3).until(
+                                        EC.element_to_be_clickable((By.XPATH, "//select[contains(@id, 'dropdown')]"))
+                                    )
+                                    select.click()
+                                    time.sleep(0.5)
+                                except Exception as e:
+                                    log.error(f"Could not click dropdown: {str(e)}")
+                                    continue
+                            
+                            # Get the question text to determine if it's about experience
+                            is_experience_question = False
+                            if "experience" in question.lower() or "years" in question.lower():
+                                is_experience_question = True
+                                log.info(f"Detected experience question: {question}")
+                            
+                            # Check if this is a salary/CTC question
+                            is_salary_question = False
+                            if "salary" in question.lower() or "compensation" in question.lower() or "ctc" in question.lower():
+                                is_salary_question = True
+                                log.info(f"Detected salary/CTC question: {question}")
+                            
+                            # Check if this is a location/city question
+                            is_location_question = False
+                            if "location" in question.lower() or "city" in question.lower():
+                                is_location_question = True
+                                log.info(f"Detected location/city question: {question}")
+                                
+                            # Check if this is a language proficiency question
+                            is_language_question = False
+                            if "english" in question.lower() or "proficiency" in question.lower() or "language" in question.lower():
+                                is_language_question = True
+                                log.info(f"Detected language proficiency question: {question}")
+                                
+                            # Check if this is a remote work question
+                            is_remote_question = False
+                            if "remote" in question.lower() or "work from home" in question.lower():
+                                is_remote_question = True
+                                log.info(f"Detected remote work question: {question}")
+                                
+                            # Check if this is a UK hours question
+                            is_uk_hours_question = False
+                            if "uk" in question.lower() and ("hours" in question.lower() or "time" in question.lower()):
+                                is_uk_hours_question = True
+                                log.info(f"Detected UK hours question: {question}")
+                                
+                            # Check if this is a full stack experience question
+                            is_fullstack_question = False
+                            if "full stack" in question.lower() or "fullstack" in question.lower() or "full-stack" in question.lower():
+                                is_fullstack_question = True
+                                log.info(f"Detected full stack experience question: {question}")
+                                
+                            # Check if this is a UK company experience question
+                            is_uk_company_question = False
+                            if "uk" in question.lower() and ("company" in question.lower() or "based" in question.lower() or "previously" in question.lower()):
+                                is_uk_company_question = True
+                                log.info(f"Detected UK company experience question: {question}")
+                                
+                            # Check if this is a Delhi region question
+                            is_delhi_question = False
+                            if "delhi" in question.lower() or ("near" in question.lower() and "delhi" in question.lower()):
+                                is_delhi_question = True
+                                log.info(f"Detected Delhi region question: {question}")
+                                
+                            # Check if this is a specific technology question
+                            is_specific_tech_question = False
+                            tech_name = ""
+                            if "c#" in question.lower():
+                                is_specific_tech_question = True
+                                tech_name = "C#"
+                                log.info(f"Detected C# question: {question}")
+                            elif ".net framework" in question.lower():
+                                is_specific_tech_question = True
+                                tech_name = ".NET Framework"
+                                log.info(f"Detected .NET Framework question: {question}")
+                            elif "angularjs" in question.lower():
+                                is_specific_tech_question = True
+                                tech_name = "AngularJS"
+                                log.info(f"Detected AngularJS question: {question}")
+                            elif "wpf" in question.lower():
+                                is_specific_tech_question = True
+                                tech_name = "WPF Development"
+                                log.info(f"Detected WPF Development question: {question}")
+                            
                             options = select.find_elements(By.TAG_NAME, "option")
                             
-                            for option in options:
-                                option_text = option.text.strip().lower()
-                                if answer.lower() in option_text or option_text in answer.lower():
-                                    option.click()
-                                    log.info(f"Selected dropdown option: {option_text}")
-                                    break
+                            # For experience questions, try to extract years from Gemini's answer
+                            if is_experience_question:
+                                # Extract skill from question
+                                skill_keywords = ["react", "angular", "vue", "javascript", "python", "java", "c++", 
+                                                 "node", "django", "flask", "spring", "llm", "ai", "ml", "next", 
+                                                 "typescript", "sql", "nosql", "mongodb", "postgresql", "aws", 
+                                                 "azure", "gcp", "cloud", "docker", "kubernetes", "devops"]
+                                
+                                # Parse the answer from Gemini to extract years
+                                years_match = re.search(r'(\d+)\s*(?:year|yr)', answer.lower())
+                                years = int(years_match.group(1)) if years_match else 1
+                                
+                                log.info(f"Extracted {years} years of experience from answer: {answer}")
+                                
+                                # Find the best matching option based on years
+                                best_option = None
+                                best_match_score = 0
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match exact years first
+                                    if str(years) in option_text:
+                                        best_option = option
+                                        log.info(f"Found exact year match: {option_text}")
+                                        break
+                                    
+                                    # Look for ranges that include our years
+                                    range_match = re.search(r'(\d+)\s*-\s*(\d+)', option_text)
+                                    if range_match:
+                                        min_years = int(range_match.group(1))
+                                        max_years = int(range_match.group(2))
+                                        if min_years <= years <= max_years:
+                                            best_option = option
+                                            log.info(f"Found range match: {option_text}")
+                                            break
+                                    
+                                    # For options like "3+ years"
+                                    plus_match = re.search(r'(\d+)\s*\+', option_text)
+                                    if plus_match:
+                                        min_years = int(plus_match.group(1))
+                                        if years >= min_years:
+                                            best_option = option
+                                            log.info(f"Found plus match: {option_text}")
+                                            break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected experience option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback option: {option_text}")
+                                            break
+                            # For salary/CTC questions
+                            elif is_salary_question:
+                                log.info(f"Processing salary/CTC dropdown with answer: {answer}")
+                                
+                                # Try to extract salary value or range from the answer
+                                salary_value = answer
+                                
+                                # Find the best matching option based on salary
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match salary value or range
+                                    if salary_value.lower() in option_text or option_text in salary_value.lower():
+                                        best_option = option
+                                        log.info(f"Found salary match: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected salary option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback salary option: {option_text}")
+                                            break
+                            elif is_location_question:
+                                log.info(f"Processing location/city dropdown with answer: {answer}")
+                                
+                                # For location questions, we always want to select 'Noida'
+                                location_value = "Noida"
+                                
+                                # Find the best matching option based on location
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match location value
+                                    if location_value.lower() in option_text:
+                                        best_option = option
+                                        log.info(f"Found location match: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected location option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback location option: {option_text}")
+                                            break
+                            elif is_language_question:
+                                log.info(f"Processing language proficiency dropdown with answer: {answer}")
+                                
+                                # For language questions, we want to select 'Native or bilingual'
+                                language_value = "Native or bilingual"
+                                
+                                # Find the best matching option based on language proficiency
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match language proficiency value
+                                    if "native" in option_text or "bilingual" in option_text:
+                                        best_option = option
+                                        log.info(f"Found language proficiency match: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected language proficiency option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback language option: {option_text}")
+                                            break
+                            elif is_remote_question or is_uk_hours_question or is_fullstack_question or is_uk_company_question or is_delhi_question:
+                                log.info(f"Processing Yes/No dropdown question: {question}")
+                                
+                                # For these questions, we want to select 'Yes'
+                                yes_value = "Yes"
+                                
+                                # Find the best matching option based on Yes/No
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match Yes value
+                                    if yes_value.lower() == option_text:
+                                        best_option = option
+                                        log.info(f"Found Yes match: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected Yes option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback option: {option_text}")
+                                            break
+                            elif is_salary_question and "3.2m irp" in question.lower():
+                                log.info(f"Processing 3.2M IRP salary question: {question}")
+                                
+                                # For 3.2M IRP salary question, we want to select 'Yes'
+                                yes_value = "Yes"
+                                
+                                # Find the best matching option based on Yes/No
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text:
+                                        continue
+                                    
+                                    # Try to match Yes value
+                                    if yes_value.lower() == option_text:
+                                        best_option = option
+                                        log.info(f"Found Yes match for 3.2M IRP: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected Yes option for 3.2M IRP: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip().lower()
+                                        if option_text and "select" not in option_text:
+                                            option.click()
+                                            log.info(f"Selected fallback option for 3.2M IRP: {option_text}")
+                                            break
+                            elif is_specific_tech_question:
+                                log.info(f"Processing technology experience dropdown for {tech_name}: {question}")
+                                
+                                # Define years of experience for each technology
+                                tech_years = {
+                                    "C#": "1",
+                                    ".NET Framework": "0",
+                                    "AngularJS": "4",
+                                    "WPF Development": "0"
+                                }
+                                
+                                years = tech_years.get(tech_name, "0")
+                                log.info(f"Using {years} years for {tech_name}")
+                                
+                                # Find the best matching option based on years
+                                best_option = None
+                                
+                                for option in options:
+                                    option_text = option.text.strip()
+                                    # Skip empty or "select an option" type options
+                                    if not option_text or "select" in option_text.lower():
+                                        continue
+                                    
+                                    # Try to match exact years
+                                    if option_text == years:
+                                        best_option = option
+                                        log.info(f"Found exact year match: {option_text}")
+                                        break
+                                
+                                # If we found a suitable option, click it
+                                if best_option:
+                                    best_option.click()
+                                    log.info(f"Selected technology experience option: {best_option.text}")
+                                else:
+                                    # Fall back to selecting the first non-empty option
+                                    for option in options:
+                                        option_text = option.text.strip()
+                                        if option_text and "select" not in option_text.lower():
+                                            option.click()
+                                            log.info(f"Selected fallback technology option: {option_text}")
+                                            break
+                            else:
+                                # Fall back to regular matching for non-experience questions
+                                for option in options:
+                                    option_text = option.text.strip().lower()
+                                    if answer.lower() in option_text or option_text in answer.lower():
+                                        option.click()
+                                        log.info(f"Selected dropdown option: {option_text}")
+                                        break
                     except Exception as e:
                         log.error(f"Error with dropdown: {str(e)}")
                 
@@ -833,7 +1189,14 @@ class EasyApplyBot:
                         for text_input in text_inputs:
                             if text_input.is_displayed() and text_input.is_enabled():
                                 text_input.clear()
-                                text_input.send_keys(answer)
+                                
+                                # Special handling for WPF Development question
+                                if "wpf development" in question.lower() and "enter a whole number" in question.lower():
+                                    log.info("Handling WPF Development text input with value: 0")
+                                    text_input.send_keys("0")
+                                else:
+                                    text_input.send_keys(answer)
+                                    
                                 log.info(f"Filled text input with: {answer}")
                                 break
                     except Exception as e:
@@ -885,6 +1248,28 @@ class EasyApplyBot:
         # Try to use Gemini agent if available and enabled
         if hasattr(self, 'gemini_agent') and self.gemini_agent and self.use_gemini_agent:
             try:
+                # Check if this is an experience-related question
+                is_experience_question = False
+                if "experience" in question_lower or "years" in question_lower:
+                    is_experience_question = True
+                    log.info(f"Detected experience question for ans_question: {question}")
+                    
+                    # Extract skill from question
+                    skill_keywords = ["react", "angular", "vue", "javascript", "python", "java", "c++", 
+                                    "node", "django", "flask", "spring", "llm", "ai", "ml", "next", 
+                                    "typescript", "sql", "nosql", "mongodb", "postgresql", "aws", 
+                                    "azure", "gcp", "cloud", "docker", "kubernetes", "devops"]
+                    
+                    # Try to identify which skill is being asked about
+                    detected_skill = None
+                    for skill in skill_keywords:
+                        if skill in question_lower:
+                            detected_skill = skill
+                            break
+                    
+                    if detected_skill:
+                        log.info(f"Detected skill in question: {detected_skill}")
+                
                 gemini_answer = self.gemini_agent.answer_question(question, job_description)
                 if gemini_answer:
                     log.info(f"Gemini answered: '{question}' with '{gemini_answer}'")
@@ -901,23 +1286,67 @@ class EasyApplyBot:
         if "how many" in question_lower:
             answer = "1"
         elif "experience" in question_lower:
-            answer = "1"
+            # More specific handling for experience questions
+            # Check for specific technologies in the question
+            for tech in ["react", "angular", "vue", "javascript", "python", "java", "node", "llm", "ai", "ml", "next"]:
+                if tech in question_lower:
+                    # For newer technologies like LLMs, React, Next.js
+                    if tech in ["llm", "ai", "ml", "react", "next"]:
+                        answer = "1 year"
+                        log.info(f"Answering with 1 year experience for newer technology: {tech}")
+                    else:
+                        # For more established technologies
+                        answer = "3 years"
+                        log.info(f"Answering with 3 years experience for established technology: {tech}")
+                    break
+            
+            # Default experience answer if no specific tech was found
+            if not answer:
+                answer = "2 years"
         elif "sponsor" in question_lower:
             answer = "No"
         elif 'do you ' in question_lower:
-            answer = "Yes"
+            # Check for specific questions first
+            if "full stack" in question_lower or "fullstack" in question_lower or "full-stack" in question_lower:
+                answer = "Yes"
+            elif "remote" in question_lower or "work from home" in question_lower:
+                answer = "Yes"
+            elif "uk" in question_lower and ("hours" in question_lower or "time" in question_lower):
+                answer = "Yes"
+            elif "delhi" in question_lower or ("near" in question.lower() and "delhi" in question.lower()):
+                answer = "Yes"
+            else:
+                answer = "Yes"
         elif "have you " in question_lower:
-            answer = "Yes"
+            # Check for specific questions first
+            if "uk" in question_lower and ("company" in question_lower or "based" in question_lower or "previously" in question_lower):
+                answer = "Yes"
+            else:
+                answer = "Yes"
         elif "US citizen" in question_lower or "authorized to work" in question_lower:
             answer = "Yes"
         elif "are you " in question_lower:
-            answer = "Yes"
+            # Check for specific questions first
+            if "comfortable" in question_lower and "remote" in question_lower:
+                answer = "Yes"
+            elif "comfortable" in question_lower and "uk" in question_lower and "hours" in question_lower:
+                answer = "Yes"
+            else:
+                answer = "Yes"
         elif "can you" in question_lower:
             answer = "Yes"
         elif "are you legally" in question_lower:
             answer = "Yes"
-        elif "salary" in question_lower or "compensation" in question_lower:
-            answer = self.salary
+        elif "salary" in question_lower or "compensation" in question_lower or "ctc" in question_lower:
+            # Check for specific salary questions
+            if "3.2m" in question_lower or "3.2 m" in question_lower:
+                answer = "Yes"
+            else:
+                answer = self.salary
+        elif "location" in question_lower or "city" in question_lower:
+            answer = "Noida"
+        elif "english" in question_lower or "proficiency" in question_lower or "language" in question_lower:
+            answer = "Native or bilingual"
         elif "name" in question_lower:
             if hasattr(self, 'gemini_agent') and self.gemini_agent:
                 try:
