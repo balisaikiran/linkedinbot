@@ -1,5 +1,5 @@
 username: saiashok49@gmail.com
-password: FXc3@tWG+948s8m
+password: Bujjamma@23
 phone_number: +919041174022
 
 profile_path: '/Users/saikiran/Library/Application Support/Google/Chrome/Sai Kiran' #can be empty, will default to 'C:\Users\<user>\AppData\Local\Google\Chrome\User Data\Default'
@@ -10,13 +10,19 @@ use_gemini_agent: true # Set to false to disable Gemini agent
 user_data_file: "user_data.yaml" # Path to user data file for Gemini agent
 
 positions:
-- Software Engineer
 - Full Stack developer
 - Senior Developer
+- Frontend Developer
+- Backend Developer
+- Full Stack Developer
+- Web Developer
+- Software Engineer
 
 locations:
-- Noida
+- India
 - Remote
+
+
 
 salary: 60,000
 rate: 25
@@ -33,9 +39,12 @@ output_filename:
 # - # Company names you want to ignore
 
 experience_level:
-  - 1 # Entry level
+  # - 1 # Entry level
+  
   - 2 # Associate
   - 3 # Mid-Senior level
+  - 4 # Senior level
+  - 5 # Lead level
   # - 4 # Director
   # - 5 # Executive
   # - 6 # Internship
@@ -43,3 +52,6 @@ experience_level:
 # Auto-apply settings
 auto_apply: true # Set to false to require confirmation before applying
 min_match_score: 70 # Minimum match score (0-100) required for auto-apply
+
+# Job search filters
+last_24h_filter: true # Set to true to only show jobs posted in the last 24 hours

@@ -1,388 +1,749 @@
-2024-03-28 16:36:32,3857211698,Software Engineer,AIMQ DEVELOPMENT LLC,True,False
-2024-03-28 16:40:05,3857211698,Software Engineer,AIMQ DEVELOPMENT LLC,True,True
-2024-04-09 22:28:24,3860832233,0) Full Stack Engineer,Vital Tech Solutions,True,True
-2024-04-09 22:35:42,3832283941,0) Quantitative Developer,Jobot,True,True
-2024-04-09 22:36:15,3874275602,0) Sr Software Engineer (Warren),CIeNET Technologies,True,True
-2024-04-09 22:36:35,3827214267,0) Full Stack AI Engineer,MOTOR Information Systems,True,True
-2024-04-09 22:36:55,3854456823,0) Technical engineer or Embedded or System Engineer or Linux engineer,People Tech Group Inc,True,True
-2024-04-09 22:37:12,3783795088,0) Embedded Software Engineer,LER TechForce,True,True
-2024-04-09 22:41:05,3796905534,0) Mid Level Software Engineer,"Accessibility Services, Inc.",True,True
-2024-04-09 22:41:28,3866228500,0) Mikrotik Engineer,Mad River Enterprises,True,True
-2024-04-09 22:44:56,3880081547,0) DevOps Engineer,Camgian,True,True
-2024-04-09 22:55:36,3818300577,1) CMM Programmer,Tenneco,True,True
-2024-04-09 22:56:13,3812006594,1) Senior Software Engineer,"Revela, Inc.",True,True
-2024-04-09 22:56:30,3764169601,1) Embedded Software Engineer,LER TechForce,True,True
-2024-04-09 22:56:50,3864416985,1) Embedded Engineer,People Tech Group Inc,True,True
-2024-04-09 22:57:40,3860849293,1) Embedded Software Engineer,Pure Talent Consulting,True,True
-2024-04-09 23:03:01,3887422852,1) Dotnet Developer,Imetris Corporation,True,True
-2024-04-09 23:07:22,3860352554,1) Senior Full Stack Shopify Developer,Akantro,True,True
-2024-04-09 23:10:37,3885141730,1) Experienced Talend ETL Developer,"Retail Insights, LLC",True,True
-2024-04-09 23:16:15,3875092654,"1) IT Ops Engineer II - Primarily Remote/On-Site 2-3 days/mth - MS Windows, Linux, Powershell",Conexess Group,True,True
-2024-04-09 23:16:34,3885092790,1) Senior SAS Programmer - only W2,Intellisoft Technologies,True,False
-2024-04-09 23:19:25,3827215295,1) Platform Engineer,RE/MAX,True,True
-2024-04-09 23:19:59,3840470076,1) Software Engineer,InterEx Group,True,False
-2024-04-09 23:20:33,3864393011,1) Application Developer,SysTechCorp Inc,True,False
-2024-04-09 23:21:07,3881719303,1) Senior Cloud Developer,JRD Systems,True,False
-2024-04-09 23:23:49,3840470076,1) Software Engineer,InterEx Group,True,True
-2024-04-09 23:28:02,3885092790,1) Senior SAS Programmer - only W2,Intellisoft Technologies,True,False
-2024-04-09 23:30:16,3885092790,1) Senior SAS Programmer - only W2,Intellisoft Technologies,True,True
-2025-07-04 13:39:50,4260187881,Full Stack Engineer,Blackstone Talent Group,True,False
-2025-07-04 13:40:12,4257976458,Full Stack Engineer,Genpact,True,True
-2025-07-04 13:40:31,4255447114,Full Stack Developers,"TreCom Systems Group, Inc.",True,True
-2025-07-04 13:40:42,4261746876,Software Engineer Part-Time,CostCrunch,True,True
-2025-07-04 13:41:09,4261717915,Artificial Intelligence & Full Stack Developer,The-Impact-Venture,True,False
-2025-07-04 13:41:25,4248758648,Software Developer,Jack,True,True
-2025-07-04 13:41:44,4256935838,Software Engineer,SoTalent,True,True
-2025-07-04 13:42:21,4248927188,Backend Engineer,Hyqoo,True,True
-2025-07-04 13:42:40,4260267483,Senior Software Engineer,Zywave,True,True
-2025-07-04 13:43:04,4252357779,Full Stack Software Developer,Varicent,True,False
-2025-07-04 13:43:15,4214325286,Senior Software Engineer,Kforce Inc,True,True
-2025-07-04 13:43:36,4258530245,Full-stack Software Engineer,Harnham,True,True
-2025-07-04 13:43:44,4256935838,Software Engineer,SoTalent,False,False
-2025-07-04 13:44:11,4257433156,Full Stack Engineer,STAND 8 Technology Consulting,True,False
-2025-07-04 13:44:44,4256947494,Software Engineer,SoTalent,True,True
-2025-07-04 13:45:06,4255360531,Software Engineer,Ingenuity Staffing,True,True
-2025-07-04 13:45:30,4252380822,Software Developer,LGC,True,False
-2025-07-04 13:45:41,4258795918,Senior Engineer,Kforce Inc,True,True
-2025-07-04 13:46:08,4124758953,Software Developer (Remote),Christian Healthcare Ministries,True,False
-2025-07-04 13:46:35,4230134851,Software Developer III,LocumTenens.com,True,False
-2025-07-04 13:46:51,4258646109,Full Stack Engineer,Fortune 500 Companies,True,True
-2025-07-04 13:47:28,4258990750,Software Engineer,MobiusEngine,True,True
-2025-07-04 13:47:38,4253882026,Software Engineer,Kforce Inc,True,True
-2025-07-04 13:48:05,4261718311,Python Developer,Agile Tech Labs,True,False
-2025-07-04 13:48:13,4258646109,Full Stack Engineer,Fortune 500 Companies,False,False
-2025-07-04 13:48:40,4261781429,Back End Developer,StackIt,True,False
-2025-07-04 13:49:07,4260450267,Software Engineer,Tailored Management,True,False
-2025-07-04 13:49:26,4256183655,Frontend Software Developer,Eliassen Group,True,True
-2025-07-04 13:50:08,4248769647,Application Software Developer,"MCG Energy Solutions, LLC",True,False
-2025-07-04 13:50:18,4261079156,Software Engineer III,Kforce Inc,True,True
-2025-07-04 13:50:37,4261081048,Full Stack Engineer,George Mason University,True,True
-2025-07-04 13:50:49,4249815460,Software Engineer,LaSalle Network,True,True
-2025-07-04 13:50:56,4256183655,Frontend Software Developer,Eliassen Group,False,False
-2025-07-04 13:51:15,4261056831,Software Developer III,Beacon Hill,True,True
-2025-07-04 13:51:34,4254828127,Software Engineer,ECLARO,True,True
-2025-07-04 13:52:07,4255360780,Ingeniero de software,Evertreen,True,True
-2025-07-04 13:52:18,4258502592,Software Engineer,Kforce Inc,True,True
-2025-07-04 13:52:25,4254828127,Software Engineer,ECLARO,False,False
-2025-07-04 13:52:36,4257401529,Full-Stack App Developer (FlutterFlow),PitchSafe,True,True
-2025-07-04 13:52:58,4253233721,Junior Full Stack Developer,Brooksource,True,True
-2025-07-04 13:53:17,4250023841,Web Developer,Hudu,True,True
-2025-07-04 13:53:44,4258703363,Associate Software Engineer,PEAK Technical Staffing USA,True,False
-2025-07-04 13:54:26,4260187881,Full Stack Engineer,Blackstone Talent Group,True,False
-2025-07-04 13:54:53,4261717915,Artificial Intelligence & Full Stack Developer,The-Impact-Venture,True,False
-2025-07-04 13:55:04,4261077553,Software Engineer III,Kforce Inc,True,True
-2025-07-04 13:55:31,4256561806,Software Eningeer I,"Capstone Technology Resources, Inc. (Capstone)",True,False
-2025-07-04 13:56:10,4252357779,Full Stack Software Developer,Varicent,True,False
-2025-07-04 13:56:37,4261776918,Frontend Developer,StackIt,True,False
-2025-07-04 13:57:35,4260860950,Software Engineer II,INSPYR Solutions,True,True
-2025-07-04 13:58:17,4257433156,Full Stack Engineer,STAND 8 Technology Consulting,True,False
-2025-07-04 14:03:10,4259647661,Software Dev Engineer III,Kforce Inc,True,True
-2025-07-04 14:09:59,4086201015,Founding Engineer (Full Stack),Build Club,True,True
-2025-07-04 14:13:58,4253314037,Senior Fullstack (ReactJs + NextJs +.Net),CES,True,False
-2025-07-04 14:14:23,4253616553,LLM Sr. Python: Agent Development 5+,Jupiter AI Labs ✔,True,False
-2025-07-04 14:33:04,4251110432,Gen AI - Full Stack Developer - Angular + Node,Tata Consultancy Services,True,True
-2025-07-04 14:33:28,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
-2025-07-04 14:33:55,4260160603,Frontend Engineer,BillionApps InfoTech Solutions,True,False
-2025-07-04 14:34:19,4238008493,MERN Full Stack Developer,Irizpro Learning Solutions,True,False
-2025-07-04 14:34:45,4141977121,Full Stack Developer (React Js+ Node Js),EAZY,True,False
-2025-07-04 14:35:12,4213340538,Full-Stack Developer,Placed.,True,False
-2025-07-04 14:35:39,4210413378,MERN Full Stack Developer,Aarushi Infotech,True,False
-2025-07-04 14:41:38,4177184412,Python Full Stack Developer,Altraize,True,False
-2025-07-04 14:41:54,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 14:42:16,4259234269,"Full Stack Developer Intern (Django, React)",Digital Alpha Platforms,True,True
-2025-07-04 14:42:44,4249358831,"Full Stack Developer (Java with HTML,CSS ,Javascript,React JS)",TAT IT Technolgies,True,False
-2025-07-04 14:43:13,4222055533,Java Full Stack Developer,CoolBoots,True,False
-2025-07-04 14:47:17,4259544569,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
-2025-07-04 14:47:43,4249085187,Senior Software Developer,Europa Worldwide Group,True,False
-2025-07-04 15:00:31,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 15:10:21,4260699065,Web Developer,Tech To Tax,True,True
-2025-07-04 15:10:43,4250508307,Senior Java Full-Stack Developer (immediate Joiner),Recmatrix Consulting,True,True
-2025-07-04 15:11:09,4257688066,ColdFusion Developer,BeGig,True,False
-2025-07-04 15:11:38,4206197745,"Sr.Software Engineer, API Protection",Netskope,True,False
-2025-07-04 15:11:57,4257840672,Appian Senior Developer - Remote India,Luxoft,True,True
-2025-07-04 15:18:38,4249797227,Full Stack Engineer- Rails + React + shopify,Acorn Globus,True,False
-2025-07-04 15:18:57,4256391159,Full Stack Engineer,Zetheta Algorithms Private Limited,True,True
-2025-07-04 15:19:21,4245283269,Full Stack Engineer,HCLSoftware,True,False
-2025-07-04 15:19:44,4260896873,Full Stack Engineer,LawSikho,True,False
-2025-07-04 15:20:09,4177182707,Full Stack Developer,Altraize,True,False
-2025-07-04 15:20:26,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:20:33,4260692817,Web Developer,YugAlpha Tech Private Limited,False,False
-2025-07-04 15:21:14,4258568528,Full Stack Engineer,Beyondsoft,True,False
-2025-07-04 15:21:31,4258801407,Co-Founder ( Full stack developer ),LettrBlack,True,True
-2025-07-04 15:21:52,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:22:15,4251620136,Full Stack Java Software Developer,Adroit Innovative Solutions Inc,True,True
-2025-07-04 15:22:45,4255113452,Junior Full-Stack Developer,Farmers District 46,True,False
-2025-07-04 15:23:16,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:23:32,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:24:13,4242004369,SDE 1 - Platform Backend Engineer (Symfony/Laravel),Astra Security,True,False
-2025-07-04 15:24:37,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
-2025-07-04 15:24:59,4249621818,Java Full Stack Developer with Python,Adroit Innovative Solutions Inc,True,True
-2025-07-04 15:25:16,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:25:46,4240125206,Full Stack Developer,Decentralized Masters,True,False
-2025-07-04 15:26:17,4202945268,"Full stack Developer(.Net Core 8 with MVC , React and Entity Framework)-Banking",TAT IT Technolgies,True,False
-2025-07-04 15:26:47,4254616410,Full Stack Developer Trainee/Intern,Quantum IT Innovation,True,False
-2025-07-04 15:27:28,4255205631,Full Stack Engineer,Ampera,True,False
-2025-07-04 15:28:52,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
-2025-07-04 15:29:22,4260160603,Frontend Engineer,BillionApps InfoTech Solutions,True,False
-2025-07-04 15:29:52,4238008493,MERN Full Stack Developer,Irizpro Learning Solutions,True,False
-2025-07-04 15:30:22,4213340538,Full-Stack Developer,Placed.,True,False
-2025-07-04 15:30:39,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:31:04,4260866334,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 15:31:40,4247119653,Full Stack Engineer,Ampera,True,True
-2025-07-04 15:32:10,4177184412,Python Full Stack Developer,Altraize,True,False
-2025-07-04 15:32:39,4249358831,"Full Stack Developer (Java with HTML,CSS ,Javascript,React JS)",TAT IT Technolgies,True,False
-2025-07-04 15:32:56,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:33:21,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 15:33:51,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:34:33,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 15:34:52,4260188189,Software Engineer,Droisys,True,True
-2025-07-04 15:35:09,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:35:34,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 15:36:04,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:36:35,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:37:01,4257688066,ColdFusion Developer,BeGig,True,False
-2025-07-04 15:37:31,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:37:55,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 15:38:06,4260698424,Tech tech Net angular 7 to 10 years,Orbion Infotech,True,True
-2025-07-04 15:38:46,4249797227,Full Stack Engineer- Rails + React + shopify,Acorn Globus,True,False
-2025-07-04 15:38:57,4260697389,Fullstack Developer - React + Fast API+Python+PostgressSQL,ThinkCampus Pvt Ltd,True,True
-2025-07-04 15:39:13,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:39:43,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:40:29,4177182707,Full Stack Developer,Altraize,True,False
-2025-07-04 15:40:46,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:41:16,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:41:47,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:42:03,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:42:33,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:43:13,4258568528,Full Stack Engineer,Beyondsoft,True,False
-2025-07-04 15:43:45,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:44:17,4255113452,Junior Full-Stack Developer,Farmers District 46,True,False
-2025-07-04 15:44:48,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:45:18,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:45:56,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
-2025-07-04 15:46:21,4260896873,Full Stack Engineer,LawSikho,True,False
-2025-07-04 15:46:37,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:46:54,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:47:25,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:47:55,4240125206,Full Stack Developer,Decentralized Masters,True,False
-2025-07-04 15:48:11,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:48:41,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:49:21,4242004369,SDE 1 - Platform Backend Engineer (Symfony/Laravel),Astra Security,True,False
-2025-07-04 15:49:46,4245283269,Full Stack Engineer,HCLSoftware,True,False
-2025-07-04 15:50:02,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:50:18,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:50:48,4202945268,"Full stack Developer(.Net Core 8 with MVC , React and Entity Framework)-Banking",TAT IT Technolgies,True,False
-2025-07-04 15:51:28,4255205631,Full Stack Engineer,Ampera,True,False
-2025-07-04 15:51:51,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
-2025-07-04 15:52:21,4260160603,Frontend Engineer,BillionApps InfoTech Solutions,True,False
-2025-07-04 15:52:37,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:53:03,4258805408,MERN Stack Developer,Metricoid Technology Solutions,True,True
-2025-07-04 15:53:19,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:53:36,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:54:00,4260866334,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 15:54:32,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:55:02,4177184412,Python Full Stack Developer,Altraize,True,False
-2025-07-04 15:55:19,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:55:48,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:56:19,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:56:49,4249358831,"Full Stack Developer (Java with HTML,CSS ,Javascript,React JS)",TAT IT Technolgies,True,False
-2025-07-04 15:57:06,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 15:57:36,4254616410,Full Stack Developer Trainee/Intern,Quantum IT Innovation,True,False
-2025-07-04 15:58:05,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 15:58:48,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 15:59:04,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 15:59:20,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:00:05,4213340538,Full-Stack Developer,Placed.,True,False
-2025-07-04 16:00:22,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:00:38,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:01:10,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:01:26,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:01:56,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:02:27,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:02:44,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:03:08,4257688066,ColdFusion Developer,BeGig,True,False
-2025-07-04 16:03:33,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:04:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:04:21,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:04:51,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:05:16,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 16:05:47,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:06:03,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:06:33,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:07:04,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:07:20,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:07:50,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:08:15,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 16:08:55,4177182707,Full Stack Developer,Altraize,True,False
-2025-07-04 16:09:11,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:09:28,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:09:58,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:10:15,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:10:45,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:11:10,4260866334,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:11:49,4258568528,Full Stack Engineer,Beyondsoft,True,False
-2025-07-04 16:12:06,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:12:37,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:13:07,4255113452,Junior Full-Stack Developer,Farmers District 46,True,False
-2025-07-04 16:13:24,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:13:54,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:14:25,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:14:41,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:15:11,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:15:36,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 16:16:14,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
-2025-07-04 16:16:38,4260896873,Full Stack Engineer,LawSikho,True,False
-2025-07-04 16:16:55,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:17:25,4240125206,Full Stack Developer,Decentralized Masters,True,False
-2025-07-04 16:17:56,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:18:12,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:18:42,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:19:07,4260863813,Remote Full-Stack Developer - 20414,Turing,True,False
-2025-07-04 16:20:03,4238008493,MERN Full Stack Developer,Irizpro Learning Solutions,True,False
-2025-07-04 16:20:33,4210413378,MERN Full Stack Developer,Aarushi Infotech,True,False
-2025-07-04 16:20:49,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:21:19,4141977121,Full Stack Developer (React Js+ Node Js),EAZY,True,False
-2025-07-04 16:21:30,4260699539,Full-stack Developer,AwebTech,True,True
-2025-07-04 16:22:00,4222055533,Java Full Stack Developer,CoolBoots,True,False
-2025-07-04 16:22:37,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
-2025-07-04 16:23:07,4260160603,Frontend Engineer,BillionApps InfoTech Solutions,True,False
-2025-07-04 16:23:23,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:23:53,4177184412,Python Full Stack Developer,Altraize,True,False
-2025-07-04 16:24:23,4210410601,Ecosense Enviro-Fullstack Developer-Remote,Aarushi Infotech,True,False
-2025-07-04 16:24:34,4254306374,Full Stack Engineer,EaseMyTrip.com,True,True
-2025-07-04 16:25:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:25:34,4249358831,"Full Stack Developer (Java with HTML,CSS ,Javascript,React JS)",TAT IT Technolgies,True,False
-2025-07-04 16:25:42,4254306374,Full Stack Engineer,EaseMyTrip.com,False,False
-2025-07-04 16:26:12,4135027735,Full Stack Developer (Asp.net+ React Js),EAZY,True,False
-2025-07-04 16:26:31,4257690583,Artificial Intelligence Full Stack Developer,Netweb Technologies India Ltd.,True,True
-2025-07-04 16:27:13,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 16:27:43,4213340538,Full-Stack Developer,Placed.,True,False
-2025-07-04 16:27:59,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:28:16,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:28:23,4257690583,Artificial Intelligence Full Stack Developer,Netweb Technologies India Ltd.,False,False
-2025-07-04 16:28:55,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:29:12,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:29:37,4260697885,ReactJs / NextJs / Experience with Cursor / Prompting,Skugal Technologies Pvt Ltd,True,False
-2025-07-04 16:30:03,4261408089,Lead Backend Engineer,Weekday AI (YC W21),True,False
-2025-07-04 16:30:34,4202945268,"Full stack Developer(.Net Core 8 with MVC , React and Entity Framework)-Banking",TAT IT Technolgies,True,False
-2025-07-04 16:31:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:31:31,4261406326,Lead Backend Engineer,Weekday AI (YC W21),True,False
-2025-07-04 16:31:48,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:32:18,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:32:49,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:33:05,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:33:35,4257370628,Full-Stack Developer (Ruby on Rails + Python) – Canvas,Alphaspec Consulting LLP,True,False
-2025-07-04 16:34:00,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:34:31,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:34:47,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:35:17,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:35:47,4254616410,Full Stack Developer Trainee/Intern,Quantum IT Innovation,True,False
-2025-07-04 16:36:18,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:36:48,4255113452,Junior Full-Stack Developer,Farmers District 46,True,False
-2025-07-04 16:37:04,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:37:34,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:38:06,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:38:22,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:38:52,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:39:17,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:39:48,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:40:04,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:40:34,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:41:04,4222055533,Java Full Stack Developer,CoolBoots,True,False
-2025-07-04 16:41:35,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:41:51,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:42:21,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:42:46,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:43:17,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:43:34,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:44:03,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:44:28,4260865104,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
-2025-07-04 16:45:13,4238008493,MERN Full Stack Developer,Irizpro Learning Solutions,True,False
-2025-07-04 16:45:43,4210413378,MERN Full Stack Developer,Aarushi Infotech,True,False
-2025-07-04 16:45:59,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:46:15,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:46:42,4261401777,Lead Backend Engineer,Weekday AI (YC W21),True,False
-2025-07-04 16:47:26,4141977121,Full Stack Developer (React Js+ Node Js),EAZY,True,False
-2025-07-04 16:47:43,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:47:59,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:48:29,4260162827,Jr. Full Stack Developer,Ven Analytics Pvt. Ltd.,True,False
-2025-07-04 16:49:06,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
-2025-07-04 16:49:36,4260160603,Frontend Engineer,BillionApps InfoTech Solutions,True,False
-2025-07-04 16:49:52,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:50:17,4260697484,Python React Developer,Securium Solutions Private Limited,True,False
-2025-07-04 16:50:33,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:51:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:51:35,4177184412,Python Full Stack Developer,Altraize,True,False
-2025-07-04 16:51:51,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:52:22,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:52:52,4249358831,"Full Stack Developer (Java with HTML,CSS ,Javascript,React JS)",TAT IT Technolgies,True,False
-2025-07-04 16:53:08,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:53:48,4260687609,Software Engineer,RevX,True,False
-2025-07-04 16:54:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:54:34,4135027735,Full Stack Developer (Asp.net+ React Js),EAZY,True,False
-2025-07-04 16:54:50,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:55:32,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 16:55:48,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:56:05,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:56:49,4213340538,Full-Stack Developer,Placed.,True,False
-2025-07-04 16:57:05,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:57:22,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:57:53,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:58:18,4260915250,Full Stack Developer (Python & React),Securium Solutions Private Limited,True,False
-2025-07-04 16:58:34,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 16:59:16,4245502543,Full Stack Engineer,Weekday AI (YC W21),True,False
-2025-07-04 16:59:32,4256726499,Full Stack Developer,SparkNovaTechSolutions,True,False
-2025-07-04 16:59:48,4259907861,"Python Full Stack Developer – (FastAPI, Flask, Azure OpenAI, Azure DevOps)",Papigen,True,False
-2025-07-04 20:54:49,4253616553,LLM Sr. Python: Agent Development 5+,Jupiter AI Labs ✔,True,False
-2025-07-04 20:55:21,4251862658,Software Engineer (Frontend),RECRIVIO,True,True
-2025-07-04 20:55:46,4258568528,Full Stack Engineer,Beyondsoft,True,False
-2025-07-04 20:56:11,4243904074,Software Engineer,Wimmer Solutions,True,False
-2025-07-04 20:56:35,4259203249,Desarrollador,Evertreen,True,False
-2025-07-04 20:57:00,4250300464,Frontend Developer,Landmark Group,True,False
-2025-07-04 20:57:40,4247114984,Senior Web Scraping Engineer,S2T AI - AI-Powered Investigations,True,False
-2025-07-04 20:58:01,4260258961,Ingeniero de software,Evertreen,True,True
-2025-07-04 20:58:26,4257563854,Frontend Developer,Recro,True,False
-2025-07-04 20:58:51,4254859147,Software Development Engineer II (AI Engg),Joveo,True,False
-2025-07-04 20:59:15,4249903883,Engineer,Innova Solutions,True,False
-2025-07-04 20:59:26,4251865583,Software Engineer (Backend),RECRIVIO,True,True
-2025-07-04 21:00:01,4259097916,Ingeniero de software,Evertreen,True,True
-2025-07-04 21:00:09,4251865583,Software Engineer (Backend),RECRIVIO,False,False
-2025-07-04 21:00:20,4257617204,Frontend Developer,Taskify,True,True
-2025-07-04 21:00:45,4259172121,Developer,DBiz.ai,True,False
-2025-07-04 21:01:10,4255205631,Full Stack Engineer,Ampera,True,False
-2025-07-04 21:01:35,4253615710,Sr. Python: Service Implementation 5+,Jupiter AI Labs ✔,True,False
-2025-07-04 21:02:15,4250554983,AI Developer,ASafe Global,True,False
-2025-07-04 21:02:40,4261350832,Full Stack Engineer,MyRemoteTeam Inc,True,False
-2025-07-04 21:03:05,4257903323,Full Stack Engineer,Live Connections,True,False
-2025-07-04 21:03:30,4251676592,Python Developer,Datastack Technologies,True,False
-2025-07-04 21:03:53,4257611909,Junior Software Engineer,Taskify,True,False
-2025-07-04 21:04:33,4221271921,Bubble Developer (Remote- India),hotsourced,True,False
-2025-07-04 21:04:55,4257611909,Junior Software Engineer,Taskify,True,False
-2025-07-04 21:05:18,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
-2025-07-04 21:05:43,4253615735,Software Development Engineer 2,Media.net,True,False
-2025-07-04 21:06:08,4260896873,Full Stack Engineer,LawSikho,True,False
-2025-07-04 21:06:48,4260687609,Software Engineer,RevX,True,False
-2025-07-04 21:07:13,4245283269,Full Stack Engineer,HCLSoftware,True,False
-2025-07-04 21:07:23,4257170553,Artificial Intelligence Engineer,CareerXperts Consulting,True,True
-2025-07-04 21:07:42,4259562236,Senior Software Engineer,Cimpress India,True,True
-2025-07-04 21:08:07,4260864622,GraphDB+Python Developer,Bounteous,True,False
-2025-07-04 21:08:47,4257237242,ML- Python Developer,Jupiter AI Labs ✔,True,False
-2025-07-04 21:09:15,4262225629,Software Engineer - Min 2 Yrs - Rs 12.4 LPA,thinkbridge,True,False
-2025-07-04 21:09:39,4257568561,Frontend Developer,Recro,True,False
-2025-07-04 21:10:01,4256485192,Senior Software Engineer,Halr,True,True
-2025-07-04 21:10:13,4251865625,DevOps Engineer,RECRIVIO,True,True
-2025-07-04 21:10:52,4253616553,LLM Sr. Python: Agent Development 5+,Jupiter AI Labs ✔,True,False
-2025-07-04 21:11:17,4243904074,Software Engineer,Wimmer Solutions,True,False
-2025-07-04 21:11:42,4258568528,Full Stack Engineer,Beyondsoft,True,False
-2025-07-04 21:12:03,4259282823,Machine Learning Engineer,goML,True,True
-2025-07-04 21:12:27,4248727732,Machine Learning Engineer,Ampera,True,False
-2025-07-04 21:13:07,4247114984,Senior Web Scraping Engineer,S2T AI - AI-Powered Investigations,True,False
-2025-07-04 21:13:32,4250300464,Frontend Developer,Landmark Group,True,False
-2025-07-04 21:13:56,4254859147,Software Development Engineer II (AI Engg),Joveo,True,False
-2025-07-04 21:14:21,4257570237,Java Software Engineer,Recro,True,False
-2025-07-04 21:15:01,4257563854,Frontend Developer,Recro,True,False
-2025-07-04 21:15:23,4256478974,Back End Developer,Halr,True,True
-2025-07-04 21:15:48,4250104634,Software Engineer-BY TMS Developer,Owens & Minor,True,False
-2025-07-04 21:16:28,4249903883,Engineer,Innova Solutions,True,False
-2025-07-04 21:16:52,4259172121,Developer,DBiz.ai,True,False
-2025-07-04 21:17:14,4255205631,Full Stack Engineer,Ampera,True,True
+2025-07-21 13:02:04,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 13:02:30,4260680961,Senior/Principal Software Engineer GEN AI,Energy Exemplar,True,True
+2025-07-21 13:02:55,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 13:03:19,4266711090,Developer,Teambees Corp,True,False
+2025-07-21 13:03:44,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-21 13:04:09,4256675775,Senior Software Engineer,Quantiphi,True,False
+2025-07-21 13:04:45,4269530259,Senior Software Engineer,Accrete,True,True
+2025-07-21 13:05:10,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-21 13:05:35,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-21 13:06:02,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-21 13:06:21,4265327098,Senior Python Developer,CLIRNET,True,True
+2025-07-21 13:06:51,4269359028,Senior Software Engineer - Systems,Freshworks,True,False
+2025-07-21 13:07:18,4270494960,Senior GenAI Developer,Applicantz,True,False
+2025-07-21 13:08:01,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 13:08:26,4268745750,FluidX - Senior Software Developer,Festo India,True,False
+2025-07-21 13:08:51,4261124860,Senior Software Developer,dSPACE,True,False
+2025-07-21 13:09:13,4259190800,Senior Frontend Developer,Infogain,True,True
+2025-07-21 13:09:38,4269385505,Senior Software Engineer,Peoplefy,True,False
+2025-07-21 13:09:57,4262375306,Senior Full Stack Developer,Happiest Minds Technologies,True,True
+2025-07-21 13:10:20,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 13:10:58,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 13:11:23,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-21 13:11:49,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-21 13:12:12,4260836765,Senior React Developer,Datastack Technologies,True,True
+2025-07-21 13:12:37,4269529853,SM /VP/AVP - FrontEnd developer - Banking,Live Connections,True,False
+2025-07-21 13:13:04,4265872888,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 13:13:29,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 13:14:09,4267642332,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 13:14:34,4269926404,Senior Software Engineer,MNC,True,False
+2025-07-21 13:14:59,4267447037,Senior Backend Developer,Collegedunia,True,False
+2025-07-21 13:15:24,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 13:15:46,4270497962,Full Stack Developers with AI/ ML || Remote || Immediate Joiner,Innova ESI,True,True
+2025-07-21 13:16:08,4269928019,Frontend Developer,Yosemite Crew,True,True
+2025-07-21 13:16:42,4269884993,Software Engineer,Teachercool,True,True
+2025-07-21 13:17:04,4264308433,Full Stack Engineer,Ampera,True,True
+2025-07-21 13:17:15,4268433670,Web Application Developer,ScriptVil,True,True
+2025-07-21 13:17:34,4266304102,Full Stack Developer - AI,Infojini Inc,True,True
+2025-07-21 13:17:41,4269928019,Frontend Developer,Yosemite Crew,False,False
+2025-07-21 13:18:07,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 13:18:48,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 13:19:13,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 13:19:37,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-21 13:20:02,4266711090,Developer,Teambees Corp,True,False
+2025-07-21 13:20:27,4263179822,Senior Frontend Developer,TBO.COM,True,False
+2025-07-21 13:21:06,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-21 13:21:31,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-21 13:21:58,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-21 13:22:40,4270494960,Senior GenAI Developer,Applicantz,True,False
+2025-07-21 13:23:05,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 13:23:32,4187235278,Senior Application Developer,Webologix Ltd/ INC,True,False
+2025-07-21 13:24:12,4268745750,FluidX - Senior Software Developer,Festo India,True,False
+2025-07-21 13:24:37,4261124860,Senior Software Developer,dSPACE,True,False
+2025-07-21 13:25:02,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 13:25:44,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 13:26:09,4269385505,Senior Software Engineer,Peoplefy,True,False
+2025-07-21 13:26:47,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 13:27:12,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-21 13:27:51,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-21 13:28:31,4269529853,SM /VP/AVP - FrontEnd developer - Banking,Live Connections,True,False
+2025-07-21 13:29:13,4265872888,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 13:29:53,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 13:30:19,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-21 14:12:53,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 14:13:19,4256675775,Senior Software Engineer,Quantiphi,True,False
+2025-07-21 14:13:49,4269359028,Senior Software Engineer - Systems,Freshworks,True,False
+2025-07-21 14:14:14,4270230021,Frontend Webgl Developer,iMerit Technology,True,False
+2025-07-21 14:14:54,4261127706,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:15:19,4270229436,MERN Stack Trainer,Zigsaw,True,False
+2025-07-21 14:15:44,4269926404,Senior Software Engineer,MNC,True,False
+2025-07-21 14:16:24,4267447037,Senior Backend Developer,Collegedunia,True,False
+2025-07-21 14:16:48,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-21 14:17:28,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 14:18:38,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 14:19:18,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 14:19:40,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 14:20:21,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 14:20:44,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 14:20:55,4270070678,Full Stack Engineer,Faxoc,True,True
+2025-07-21 14:21:34,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-21 14:21:59,4266711090,Developer,Teambees Corp,True,False
+2025-07-21 14:22:39,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:23:04,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-21 14:23:30,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-21 14:24:19,4270494960,Senior GenAI Developer,Applicantz,True,False
+2025-07-21 14:24:44,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 14:25:24,4268745750,FluidX - Senior Software Developer,Festo India,True,False
+2025-07-21 14:26:06,4187235278,Senior Application Developer,Webologix Ltd/ INC,True,False
+2025-07-21 14:26:31,4267642332,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 14:26:56,4263179822,Senior Frontend Developer,TBO.COM,True,False
+2025-07-21 14:27:33,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 14:27:59,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 14:28:39,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-21 14:29:04,4269385505,Senior Software Engineer,Peoplefy,True,False
+2025-07-21 14:29:46,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 14:30:11,4269529853,SM /VP/AVP - FrontEnd developer - Banking,Live Connections,True,False
+2025-07-21 14:30:37,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-21 14:31:02,4267778970,Remote Full-Stack JS/TS Developer - 20414,Turing,True,False
+2025-07-21 14:31:44,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 14:32:09,4256675775,Senior Software Engineer,Quantiphi,True,False
+2025-07-21 14:32:40,4269359028,Senior Software Engineer - Systems,Freshworks,True,False
+2025-07-21 14:33:07,4265872888,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 14:33:32,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 14:34:11,4261124860,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:34:36,4270229436,MERN Stack Trainer,Zigsaw,True,False
+2025-07-21 14:35:01,4269926404,Senior Software Engineer,MNC,True,False
+2025-07-21 14:35:26,4267447037,Senior Backend Developer,Collegedunia,True,False
+2025-07-21 14:36:06,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 14:36:31,4261127706,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:37:11,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 14:37:36,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-21 14:38:16,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 14:38:55,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-21 14:39:35,4266711090,Developer,Teambees Corp,True,False
+2025-07-21 14:40:00,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 14:40:40,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:41:05,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-21 14:41:47,4270494960,Senior GenAI Developer,Applicantz,True,False
+2025-07-21 14:42:28,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-21 14:42:53,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 14:43:18,4270603417,Senior Developer -OMS + Java,YALLO Group,True,False
+2025-07-21 14:43:58,4270230310,Software Development Engineer II (SDE II),SuperAGI,True,False
+2025-07-21 14:44:23,4268745750,FluidX - Senior Software Developer,Festo India,True,False
+2025-07-21 14:44:42,4265998024,Senior Java Developer,Bajaj Technology Services,True,True
+2025-07-21 14:45:10,4187235278,Senior Application Developer,Webologix Ltd/ INC,True,False
+2025-07-21 14:45:47,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 14:46:12,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-21 14:46:52,4267642332,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 14:47:35,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 14:48:00,4269529853,SM /VP/AVP - FrontEnd developer - Banking,Live Connections,True,False
+2025-07-21 14:48:25,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 14:49:05,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-21 14:49:29,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 14:49:52,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 14:50:26,4260679461,Senior Java Developer,LTIMindtree,True,True
+2025-07-21 14:51:08,4265872888,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 14:51:50,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 14:52:16,4256675775,Senior Software Engineer,Quantiphi,True,False
+2025-07-21 14:52:46,4269359028,Senior Software Engineer - Systems,Freshworks,True,False
+2025-07-21 14:53:11,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 14:53:51,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 14:54:16,4269926404,Senior Software Engineer,MNC,True,False
+2025-07-21 14:54:41,4267447037,Senior Backend Developer,Collegedunia,True,False
+2025-07-21 14:55:20,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 14:55:45,4261124860,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:56:11,4263179822,Senior Frontend Developer,TBO.COM,True,False
+2025-07-21 14:56:51,4261127706,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:57:15,4266711090,Developer,Teambees Corp,True,False
+2025-07-21 14:57:40,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-21 14:58:05,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-21 14:58:45,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-21 14:59:12,4270494960,Senior GenAI Developer,Applicantz,True,False
+2025-07-21 14:59:37,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-21 15:00:16,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 15:00:41,4270603417,Senior Developer -OMS + Java,YALLO Group,True,False
+2025-07-21 15:01:07,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 15:01:49,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-21 15:02:14,4270230310,Software Development Engineer II (SDE II),SuperAGI,True,False
+2025-07-21 15:02:39,4268745750,FluidX - Senior Software Developer,Festo India,True,False
+2025-07-21 15:03:04,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 15:03:42,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-21 15:04:24,4187235278,Senior Application Developer,Webologix Ltd/ INC,True,False
+2025-07-21 15:04:49,4267642332,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 15:05:30,4269529853,SM /VP/AVP - FrontEnd developer - Banking,Live Connections,True,False
+2025-07-21 15:06:10,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-21 15:06:35,4269385505,Senior Software Engineer,Peoplefy,True,False
+2025-07-21 15:07:18,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 15:07:43,4261883429,Senior Software Developer (C System level Programming),Oracle,True,False
+2025-07-21 15:08:06,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 15:08:48,4265872888,Senior Developer,Tata Consultancy Services,True,False
+2025-07-21 15:08:58,4261918551,Full Stack Developer,Aigentity,True,True
+2025-07-21 15:09:38,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 15:10:20,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 15:10:46,4256675775,Senior Software Engineer,Quantiphi,True,False
+2025-07-21 15:11:16,4269359028,Senior Software Engineer - Systems,Freshworks,True,False
+2025-07-21 15:11:41,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 15:12:21,4252655071,Senior Developer,HCLTech,True,False
+2025-07-21 15:12:46,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-21 15:13:11,4269926404,Senior Software Engineer,MNC,True,False
+2025-07-21 15:13:36,4267447037,Senior Backend Developer,Collegedunia,True,False
+2025-07-21 15:14:22,4257939822,Full Stack Engineer SDE-2,NxtWave,True,True
+2025-07-21 15:14:43,4264340860,Java Full Stack Developer,Brace Infotech Private Ltd,True,True
+2025-07-21 15:15:09,4269044889,Dotnet Full Stack Developer,Live Connections,True,False
+2025-07-21 15:15:34,4259989331,Full Stack Engineer,BayOne Solutions,True,False
+2025-07-21 15:15:59,4263585756,Full Stack Developer (Node.js),Rogue Pixxel IT Solutions LLP,True,False
+2025-07-21 15:16:24,4265210830,Full Stack Engineer,MacroHire,True,False
+2025-07-21 15:16:35,4261697373,Mobile / Full Stack Developer,Gala Intelligence,True,True
+2025-07-21 15:17:01,4262358897,SDE-2 Full Stack Developer,NxtWave,True,True
+2025-07-21 15:17:23,4254697405,Java Full Stack Developer,Tata Consultancy Services,True,True
+2025-07-21 15:17:50,4264590522,Java Full Stack AI Developer,Pronix Inc,True,False
+2025-07-21 15:17:58,4261697373,Mobile / Full Stack Developer,Gala Intelligence,False,False
+2025-07-21 15:18:23,4266186824,java full stack Developer,YASH Technologies,True,False
+2025-07-21 15:18:45,4259187381,Full Stack Python AI Developer,A K Associates,True,True
+2025-07-21 15:19:10,4270611805,Senior .NET Full Stack Developer,Employment,True,False
+2025-07-21 15:19:50,4268088874,Java Software Engineer,Innefu Labs,True,False
+2025-07-21 15:20:10,4257323074,Full Stack Developer (Python/ Java),NxtWave,True,True
+2025-07-21 15:20:34,4255975975,Java Full stack developer,Tata Consultancy Services,True,False
+2025-07-21 15:20:46,4255525038,Full Stack Developer - Delhi - GO/JC/436/2025,Golden Opportunities,True,True
+2025-07-21 15:21:13,4267650884,Dot Net Full Stack Developer,APTO SOLUTIONS - EXECUTIVE SEARCH & CONSULTANTS,True,False
+2025-07-21 15:21:38,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 15:22:04,4222805960,Full Stack Developer -AWS Cloud,Applogika,True,False
+2025-07-21 15:22:46,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 15:23:05,4253479530,Java Full Stack Developer,NxtWave,True,True
+2025-07-21 15:23:30,4268763266,Full Stack Web and App Developer,Dayananda Sagar University,True,False
+2025-07-21 15:23:53,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
+2025-07-21 15:24:19,4270603417,Senior Developer -OMS + Java,YALLO Group,True,False
+2025-07-21 15:24:53,4253478562,Java Full Stack Developer,NxtWave,True,True
+2025-07-21 15:25:18,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 15:26:01,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 15:26:20,4258633691,SDE (Full Stack)-1 Java Software Developer,NxtWave,True,True
+2025-07-21 15:26:45,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 15:27:20,4257938946,Full Stack (Sde-1) Java software developer,NxtWave,True,True
+2025-07-21 15:27:45,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 15:28:10,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 15:28:49,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-21 15:29:11,4262152686,Full Stack Developer (.NET + Angular/React),Geval6 Inc,True,True
+2025-07-21 15:29:51,4269044889,Dotnet Full Stack Developer,Live Connections,True,False
+2025-07-21 15:30:31,4259989331,Full Stack Engineer,BayOne Solutions,True,False
+2025-07-21 15:30:54,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 15:31:34,4263585756,Full Stack Developer (Node.js),Rogue Pixxel IT Solutions LLP,True,False
+2025-07-21 15:31:57,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 15:32:08,4268172499,Full-stack Developer Generative AI / ML,Soul at home hospitality private limited,True,True
+2025-07-21 15:33:03,4265210830,Full Stack Engineer,MacroHire,True,False
+2025-07-21 15:33:45,4264590522,Java Full Stack AI Developer,Pronix Inc,True,False
+2025-07-21 15:34:25,4266186824,java full stack Developer,YASH Technologies,True,False
+2025-07-21 15:35:05,4235865831,Full Stack Javascript Developer,Beneathatree Consultancy,True,False
+2025-07-21 15:35:31,4267724373,React Native Full Stack Mobile App Developer,Voizo,True,False
+2025-07-21 15:36:05,4265315706,Full Stack Developer,YourTribe,True,True
+2025-07-21 15:36:45,4268088874,Java Software Engineer,Innefu Labs,True,False
+2025-07-21 15:37:10,4263344684,Full Stack Developer Intern,QpiAI,True,False
+2025-07-21 15:37:50,4270067293,Full Stack Engineer,HealthPilot by BotCode,True,False
+2025-07-21 15:38:32,4267650884,Dot Net Full Stack Developer,APTO SOLUTIONS - EXECUTIVE SEARCH & CONSULTANTS,True,False
+2025-07-21 15:39:13,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 15:39:52,4222805960,Full Stack Developer -AWS Cloud,Applogika,True,False
+2025-07-21 15:40:35,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 15:41:56,4268270576,Full Stack Developer,Datadivr,True,True
+2025-07-21 15:42:22,4270071152,Full Stack Engineer,NeoRecruit,True,True
+2025-07-21 15:42:30,4268270576,Full Stack Developer,Datadivr,False,False
+2025-07-21 15:43:10,4268763266,Full Stack Web and App Developer,Dayananda Sagar University,True,False
+2025-07-21 15:43:50,4267738828,React Full stack Developer,JobTravia Pvt. Ltd.,True,False
+2025-07-21 15:44:28,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
+2025-07-21 15:45:07,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
+2025-07-21 15:45:46,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 15:46:28,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 15:47:08,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 15:47:30,4258695950,Full Stack Engineer,Goodfit,True,True
+2025-07-21 15:48:15,4267336973,Full stack developer,GiGa-Ops Global Solutions,True,False
+2025-07-21 15:48:55,4266969128,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-21 15:49:33,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-21 15:50:11,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-21 15:50:51,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-21 15:51:02,4263113261,Full Stack Developer,P.S. Global Group,True,True
+2025-07-21 15:51:42,4259989331,Full Stack Engineer,BayOne Solutions,True,False
+2025-07-21 15:52:22,4266977209,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-21 15:52:47,4263585756,Full Stack Developer (Node.js),Rogue Pixxel IT Solutions LLP,True,False
+2025-07-21 15:53:12,4257837043,Fullstack Developer (React & Node),Tredence Inc.,True,False
+2025-07-21 15:53:50,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 15:54:30,4270234637,Full Stack Developer,30 Sundays,True,False
+2025-07-21 15:54:50,4256736024,Java Full Stack Developer,NxtWave,True,True
+2025-07-21 15:55:13,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-21 15:55:55,4264590522,Java Full Stack AI Developer,Pronix Inc,True,False
+2025-07-21 15:56:21,4266186824,java full stack Developer,YASH Technologies,True,False
+2025-07-21 15:56:45,4265210830,Full Stack Engineer,MacroHire,True,False
+2025-07-21 15:57:40,4263344684,Full Stack Developer Intern,QpiAI,True,False
+2025-07-21 15:58:05,4235865831,Full Stack Javascript Developer,Beneathatree Consultancy,True,False
+2025-07-21 15:58:45,4267724373,React Native Full Stack Mobile App Developer,Voizo,True,False
+2025-07-21 15:59:25,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-21 15:59:58,4254194541,SDE-1 Full Stack Developer,NxtWave,True,True
+2025-07-21 16:00:10,4266886930,Full Stack Engineer,Celestibia Solutions Pvt,True,True
+2025-07-21 16:00:52,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-21 16:01:28,4262865584,Full stack Software developer for saas product,Intopz Technologies Pvt Ltd,True,True
+2025-07-21 16:01:51,4262865584,Full stack Software developer for saas product,Intopz Technologies Pvt Ltd,False,False
+2025-07-21 16:04:29,4270623634,Sr. Software Development - UI,CoreStack,True,False
+2025-07-21 16:07:38,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-21 16:08:27,4256747834,Java Full Stack Developer (SDE-1),NxtWave,True,True
+2025-07-21 16:09:19,4252724625,Associate Full Stack Engineer,Momentus Technologies,True,False
+2025-07-21 16:09:59,4263201108,Full Stack Developer,JobsFlix,True,False
+2025-07-21 16:10:40,4269532118,SM/AVP/VP -Full stack developer - Banking,Live Connections,True,False
+2025-07-21 16:11:21,4262381517,Senior Engineer (Full Stack Developer),Theratech.ai,True,False
+2025-07-21 16:11:43,4268095465,Senior Web Engineer,MyCareernet,False,False
+2025-07-21 16:12:05,4268095465,Senior Web Engineer,MyCareernet,False,False
+2025-07-21 16:12:28,4268095465,Senior Web Engineer,MyCareernet,False,False
+2025-07-23 16:03:12,4266711090,Developer,Teambees Corp,True,False
+2025-07-23 16:03:37,4261127706,Senior Software Developer,dSPACE,True,False
+2025-07-23 16:04:02,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-23 16:04:24,4267463567,Senior Full Stack Developer,Gnapi Technologies,True,True
+2025-07-23 16:04:49,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-23 16:05:13,4253998891,Full-Stack Developer (React + Supabase)Advertising Specialist,Authkeeper,True,False
+2025-07-23 16:05:53,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-23 16:06:18,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-23 16:06:49,4268745750,Senior Software Engineer,Festo India,True,False
+2025-07-23 16:07:00,4249271593,Founding Developer with Python + Next.js,Advocara Innovation,True,True
+2025-07-23 16:07:24,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-23 16:08:04,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-23 16:08:28,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-23 16:08:52,4273473801,Senior Developer Artificial Intelligence,r3 Consultant,True,False
+2025-07-23 16:09:32,4265210830,Full Stack Engineer,MacroHire,True,False
+2025-07-23 16:09:53,4269886866,Frontend Developer,Taskify,True,True
+2025-07-23 16:10:35,4272695332,Senior GenAI Developer,Applicantz,True,False
+2025-07-23 16:10:56,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-23 16:43:02,4271307146,Generative AI Engineer,Indegene,True,False
+2025-07-23 16:43:25,4263197886,Senior Software Engineer,Grid Dynamics,True,False
+2025-07-23 16:43:50,4271302007,Python Developer,Dexian India,True,False
+2025-07-23 16:44:14,4274109993,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-23 16:44:56,4257271074,Senior Software Engineer,Wabtec Corporation,True,False
+2025-07-23 16:45:18,4268013133,Software Engineer,BetterMind Labs,True,True
+2025-07-23 16:45:29,4268759000,Senior Software Engineer,Cimpress India,True,True
+2025-07-23 16:46:10,4267747526,Software Engineer - Must have 1.5 Yrs - Rs 12.4 LPA,thinkbridge,True,False
+2025-07-23 16:46:27,4258492769,Frontend Developer,GoQuant,True,False
+2025-07-23 16:46:34,4268759000,Senior Software Engineer,Cimpress India,False,False
+2025-07-23 16:46:59,4260706983,Full Stack Developer,Smollan,True,False
+2025-07-23 16:47:38,4268852760,Terraform + Typescript - Short Term 4+,Jupiter AI Labs ✔,True,False
+2025-07-23 16:48:03,4268744509,Web Methods developer,Dexian India,True,False
+2025-07-23 16:48:26,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-23 16:49:03,4242077414,"Full Stack Developer (Offshore, Mid-Level)",Smartbridge,True,False
+2025-07-23 16:49:20,4258492769,Frontend Developer,GoQuant,True,False
+2025-07-23 16:49:54,4265241768,Frontend Developer,Total CollectR Virtual Collector & Debt Negotiator,True,True
+2025-07-23 16:50:13,4270040765,Frontend Developer,Zetheta Algorithms Private Limited,True,True
+2025-07-23 16:50:54,4269052146,Fullstack. Net Developer,Insight Global,True,False
+2025-07-23 16:51:34,4266711090,Developer,Teambees Corp,True,False
+2025-07-23 16:51:50,4258492769,Frontend Developer,GoQuant,True,False
+2025-07-23 16:52:09,4270041792,Full Stack Engineer,Zetheta Algorithms Private Limited,True,True
+2025-07-23 16:52:49,4261124860,Senior Software Developer,dSPACE,True,False
+2025-07-23 16:53:13,4257004322,Senior Software Engineer,LogixHealth,True,False
+2025-07-23 16:53:53,3818105951,Senior Software Engineer,ITILITE,True,False
+2025-07-23 16:54:26,4271435780,Software Engineer,Schedley.com,True,True
+2025-07-23 16:54:58,4258492769,Frontend Developer,GoQuant,True,False
+2025-07-23 16:55:05,4271435780,Software Engineer,Schedley.com,False,False
+2025-07-23 16:55:16,4270272564,Full Stack Engineer,FlairX,True,True
+2025-07-23 16:55:55,4261131068,Senior Software Developer,dSPACE,True,False
+2025-07-23 16:56:25,4214039129,"Software Engineer / Sr. Software Engineer, App Connector",Netskope,True,False
+2025-07-23 16:56:42,4258492769,Frontend Developer,GoQuant,True,False
+2025-07-23 16:57:21,4274131052,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-23 16:57:46,4263981674,Senior Software Engineer,Bottomline,True,False
+2025-07-23 16:58:11,4268745750,Senior Software Engineer,Festo India,True,False
+2025-07-23 16:58:50,4268750727,FESTO LX - Senior Software Developer,Festo India,True,False
+2025-07-23 16:59:14,4214581364,Senior Software Engineer-Developer Relation,Freshworks,True,False
+2025-07-23 23:14:31,4231181166,Senior Back End Developer,Thryv,True,False
+2025-07-23 23:17:26,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-23 23:17:51,4270997781,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-23 23:18:12,4270950425,Back End Developer,Sonata Software,True,True
+2025-07-23 23:18:37,4270252510,Software Engineer,Squarepoint,True,False
+2025-07-23 23:19:03,4270083207,Senior Software Engineer,Alvaria CX,True,False
+2025-07-23 23:19:14,4268071434,Software Engineer,Unicast.ai,True,True
+2025-07-23 23:19:53,4266231139,Full Stack Developer,People Tech Group Inc,True,False
+2025-07-23 23:20:18,4271447230,Software Engineer,Collabera Digital,True,False
+2025-07-23 23:20:40,4269437526,Full Stack Engineer,Zoodealio,True,True
+2025-07-23 23:21:01,4271146349,Software Engineer,Schedley.com,True,True
+2025-07-23 23:21:23,4270256995,Software Engineer,Live Connections,True,True
+2025-07-23 23:21:49,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-23 23:21:56,4268071434,Software Engineer,Unicast.ai,False,False
+2025-07-23 23:22:36,4274835264,Software Engineer - Next.JS / React,RealEstateTalk.online,True,False
+2025-07-23 23:23:01,4271181266,Full-stack (Python + React and D3) developer,United Nations,True,False
+2025-07-23 23:23:25,4269748348,Full Stack Engineer / Sr. Engineer (.NET),Verint,True,False
+2025-07-23 23:23:50,4270575808,Senior Backend Engineer,Rayole Software,True,False
+2025-07-23 23:24:15,4270999674,Senior Software Engineer,Brace Infotech Private Ltd,True,False
+2025-07-23 23:24:26,4270734363,Full Stack Engineer,Artenos,True,True
+2025-07-23 23:25:05,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-23 23:25:24,4270720915,NODE JS DEVELOPER,Brace Infotech Private Ltd,True,True
+2025-07-23 23:25:49,4271150105,Software Engineer,People Tech Group Inc,True,False
+2025-07-23 23:26:00,4270719083,Full-stack Developer,SLICeR.,True,True
+2025-07-23 23:26:24,4268557391,Full stack developer,Digitrix Software LLP,True,False
+2025-07-23 23:27:04,4270997765,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-23 23:27:29,4271160095,Senior Full Stack Developer – Java + React,VLaunchU,True,False
+2025-07-23 23:27:55,4270251784,Full Stack Engineer,Confidential,True,False
+2025-07-23 23:28:17,4271342308,Frontend Developer,FunEx,True,True
+2025-07-23 23:28:36,4268082756,Senior Next.js Developer,Zafify,True,True
+2025-07-23 23:29:02,4268911503,Software Engineer,Satlights,True,True
+2025-07-23 23:29:23,2844355304,Fulltime angular developer,HappierMe,True,True
+2025-07-23 23:29:50,4268778475,SDE 3 Backend Developer (MERN/MEAN),WeKan Enterprise Solutions,True,False
+2025-07-23 23:30:16,4270718797,NodeJS Developer,Brace Infotech Private Ltd,True,False
+2025-07-23 23:30:27,4271358080,Full Stack Engineer,ISFRC Technologies LLP,True,True
+2025-07-23 23:30:52,4270952133,Full Stack developer,RB Consultancy Services,True,False
+2025-07-23 23:31:08,4268080742,Full Stack Developer,Magma Consultancy,True,False
+2025-07-23 23:31:34,4270709404,Full Stack Engineer,ImageKit.io,True,False
+2025-07-23 23:31:56,4268507689,Frontend Developer,Tamira Technologies,True,True
+2025-07-23 23:32:18,3899528078,Full Stack Developer,Webmark,True,True
+2025-07-23 23:32:28,4270280320,Frontend Engineer - Remote,HumaWings,True,True
+2025-07-23 23:33:08,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-23 23:33:33,4270997781,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-23 23:33:58,4270252510,Software Engineer,Squarepoint,True,False
+2025-07-23 23:34:22,4268760044,Full Stack Engineer,ZEISS India,True,False
+2025-07-23 23:34:47,4268512725,Nodejs Developer with Kubernetes or Api,Brace Infotech Private Ltd,True,False
+2025-07-23 23:35:26,4266231139,Full Stack Developer,People Tech Group Inc,True,False
+2025-07-23 23:35:45,4270070355,Full stack Developer Coveo Search Engineer,Quess Corp Limited,True,True
+2025-07-23 23:36:08,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-23 23:36:47,4274835264,Software Engineer - Next.JS / React,RealEstateTalk.online,True,False
+2025-07-23 23:37:12,4273992804,Back End Developer,DataNimbus,True,False
+2025-07-23 23:37:38,4270942555,Frontend Developer,People Prime Worldwide,True,True
+2025-07-23 23:38:19,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-23 23:38:46,4270083207,Senior Software Engineer,Alvaria CX,True,False
+2025-07-23 23:39:08,4269886992,Junior Software Engineer (Remote),Taskify,True,True
+2025-07-23 23:39:47,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-23 23:40:24,4269060095,Back End Developer,MangoDesk,True,False
+2025-07-23 23:41:02,4269060095,Back End Developer,MangoDesk,True,False
+2025-07-23 23:41:41,4270979970,Full Stack Engineer,Adapts,True,False
+2025-07-23 23:42:06,4268975231,Full Stack Engineer,TradeZero,True,False
+2025-07-23 23:42:30,4271327112,Back End Developer,Brace Infotech Private Ltd,True,False
+2025-07-23 23:42:46,4268080742,Full Stack Developer,Magma Consultancy,True,False
+2025-07-23 23:43:23,4268979469,Full Stack Developer,Oxrow,True,True
+2025-07-23 23:43:45,4268947889,Full Stack Engineer,FluxarAi,True,True
+2025-07-23 23:43:56,4268526588,Node.js / Full Stack Developer,Devstree IT Services Pvt. Ltd.,True,True
+2025-07-23 23:44:18,4270935329,Full Stack Engineer,JobPe,True,True
+2025-07-23 23:44:57,4270997765,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-23 23:45:24,4270251784,Full Stack Engineer,Confidential,True,False
+2025-07-23 23:45:43,4269227159,Full Stack Developer,EXL,True,True
+2025-07-23 23:46:08,4271160095,Senior Full Stack Developer – Java + React,VLaunchU,True,False
+2025-07-23 23:46:34,4270569450,Full Stack Engineer,BigPluto Technologies Private Limited,True,True
+2025-07-23 23:47:28,4268557391,Full stack developer,Digitrix Software LLP,True,False
+2025-07-23 23:47:53,4270285226,Full Stack Engineer,Elite Digital Technologies,True,False
+2025-07-23 23:48:09,4270717060,Software Development Engineer (SDE),Lyfskills,True,False
+2025-07-23 23:48:30,4269455068,Full Stack Engineer,eval(agi),True,True
+2025-07-23 23:49:10,4270947191,Full Stack Engineer,Neo Risk Management & Insurance Brokers,True,False
+2025-07-23 23:49:35,4274193685,Software Engineer,Mirchi,True,False
+2025-07-23 23:50:14,4270997781,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-23 23:50:39,4270993815,Senior Full Stack Software Engineer,de facto Infotech,True,False
+2025-07-23 23:51:03,4270264319,Full Stack Engineer,Hexalog,True,False
+2025-07-23 23:51:43,4268760044,Full Stack Engineer,ZEISS India,True,False
+2025-07-23 23:52:08,4270252510,Software Engineer,Squarepoint,True,False
+2025-07-23 23:52:47,4266231139,Full Stack Developer,People Tech Group Inc,True,False
+2025-07-23 23:53:12,4268512725,Nodejs Developer with Kubernetes or Api,Brace Infotech Private Ltd,True,False
+2025-07-23 23:53:37,4270229844,Senior Software Developer (MERN Stack),Foxsense Innovations,True,False
+2025-07-23 23:53:48,4270050333,Senior Software Engineer,Arambh Labs,True,True
+2025-07-23 23:54:27,4273992804,Back End Developer,DataNimbus,True,False
+2025-07-23 23:54:52,4270952133,Full Stack developer,RB Consultancy Services,True,False
+2025-07-23 23:55:16,4270488941,Full Stack Developer,Attero,True,False
+2025-07-23 23:55:56,4274835264,Software Engineer - Next.JS / React,RealEstateTalk.online,True,False
+2025-07-23 23:56:22,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-23 23:57:02,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-23 23:57:43,4270083207,Senior Software Engineer,Alvaria CX,True,False
+2025-07-23 23:58:35,4269060095,Back End Developer,MangoDesk,True,False
+2025-07-23 23:59:01,4270736749,Senior Full Stack Developer,Invoidea Technologies,True,True
+2025-07-23 23:59:23,4274827331,Senior Full Stack Engineer,Vannin Healthcare,True,True
+2025-07-24 00:00:40,4263360611,Full-Stack Developer,Indieverse Studio,True,False
+2025-07-24 00:01:41,4270260722,Senior Fullstack Developer (React & Node),TVS Next,True,False
+2025-07-24 00:03:13,4270718797,NodeJS Developer,Brace Infotech Private Ltd,True,False
+2025-07-24 00:04:15,4268975231,Full Stack Engineer,TradeZero,True,False
+2025-07-24 00:05:16,4270260722,Senior Fullstack Developer (React & Node),TVS Next,True,False
+2025-07-24 00:06:33,4268778475,SDE 3 Backend Developer (MERN/MEAN),WeKan Enterprise Solutions,True,False
+2025-07-24 00:07:34,4268080742,Full Stack Developer,Magma Consultancy,True,False
+2025-07-24 00:08:36,4271360697,"Full Stack Developer (Node.js Strong, React.js Experience)",Ariedge,True,False
+2025-07-24 00:09:38,4270996277,Full Stack Engineer,Realmonkey,True,False
+2025-07-24 00:10:39,4270717060,Software Development Engineer (SDE),Lyfskills,True,False
+2025-07-24 00:11:55,4263360611,Full-Stack Developer,Indieverse Studio,True,False
+2025-07-24 00:12:57,4268087957,Full Stack Engineer,AiVANTA,True,False
+2025-07-24 00:13:59,4270999674,Senior Software Engineer,Brace Infotech Private Ltd,True,False
+2025-07-24 00:15:01,4270572135,Full Stack Engineer,Sapyen,True,False
+2025-07-24 00:16:17,4272962947,Full Stack Engineer,IO School,True,False
+2025-07-24 00:17:19,4268080742,Full Stack Developer,Magma Consultancy,True,False
+2025-07-24 00:18:20,4271327112,Back End Developer,Brace Infotech Private Ltd,True,False
+2025-07-24 00:19:48,4268209490,Full Stack Developer - Frontend Focus,Tario,True,False
+2025-07-24 00:20:50,4267666741,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-24 00:21:51,4268978294,Senior Frontend Developer,Nivi Capital,True,False
+2025-07-24 00:23:09,4271366076,Sr Reactjs Developer,ACL Digital,True,False
+2025-07-24 00:24:10,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:25:12,4274579090,Junior Frontend Developer,Synergy Technologies,True,False
+2025-07-24 00:26:35,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:27:37,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 00:28:39,4274579090,Junior Frontend Developer,Synergy Technologies,True,False
+2025-07-24 00:29:41,4271345938,Frontend Developer,NovintiX,True,False
+2025-07-24 00:30:57,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-24 00:31:59,4270997781,Full Stack Engineer,True Tech Professionals,True,False
+2025-07-24 00:33:01,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:34:03,4271366076,Sr Reactjs Developer,ACL Digital,True,False
+2025-07-24 00:35:04,4270251784,Full Stack Engineer,Confidential,True,False
+2025-07-24 00:36:06,4271160095,Senior Full Stack Developer – Java + React,VLaunchU,True,False
+2025-07-24 00:37:22,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:38:38,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:39:40,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:40:42,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 00:41:44,4266771411,Full Stack Engineer,Motion,True,False
+2025-07-24 00:43:00,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:44:01,4270979970,Full Stack Engineer,Adapts,True,False
+2025-07-24 00:45:03,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:46:20,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:47:21,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:48:23,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 00:49:39,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:50:41,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:51:58,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:52:59,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:54:01,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 00:55:18,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:56:19,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 00:57:21,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 00:58:37,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 00:59:39,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:00:40,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:01:57,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:02:59,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:04:00,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:05:16,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:06:18,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:07:20,4269221868,Software Development Engineer II (Web Extensions),Learneo,True,False
+2025-07-24 01:08:36,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:09:38,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:10:54,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:11:56,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:12:58,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:15:21,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:16:23,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:17:40,4271319104,Senior Software Engineer,Recro,True,False
+2025-07-24 01:18:41,4268507587,Frontend Developer,ZEISS India,True,False
+2025-07-24 01:19:43,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:20:45,4269221868,Software Development Engineer II (Web Extensions),Learneo,True,False
+2025-07-24 01:22:12,4268747633,Full Stack Engineer,SARANSH SOFTWARE SOLUTIONS PRIVATE LIMITED,True,False
+2025-07-24 01:23:14,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:24:16,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:25:17,4270260613,Principal Full Stack Engineer – Python / React [32427],Stealth AI Startup,True,False
+2025-07-24 01:26:33,4268747633,Full Stack Engineer,SARANSH SOFTWARE SOLUTIONS PRIVATE LIMITED,True,False
+2025-07-24 01:27:35,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:28:37,4268180508,8) .NET & React.js Full Stack Developer,Agnotic Technologies,True,False
+2025-07-24 01:29:53,4268747633,Full Stack Engineer,SARANSH SOFTWARE SOLUTIONS PRIVATE LIMITED,True,False
+2025-07-24 01:30:55,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:31:57,4268180508,8) .NET & React.js Full Stack Developer,Agnotic Technologies,True,False
+2025-07-24 01:33:13,4268747633,Full Stack Engineer,SARANSH SOFTWARE SOLUTIONS PRIVATE LIMITED,True,False
+2025-07-24 01:34:14,4267450128,Sr. Backend Developer,IntraEdge,True,False
+2025-07-24 01:35:16,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:36:18,4268209490,Full Stack Developer - Frontend Focus,Tario,True,False
+2025-07-24 01:37:35,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:38:36,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:39:38,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 01:40:54,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:41:56,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 01:42:57,4268180508,8) .NET & React.js Full Stack Developer,Agnotic Technologies,True,False
+2025-07-24 01:44:14,4270979970,Full Stack Engineer,Adapts,True,False
+2025-07-24 01:45:16,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:46:17,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 01:47:19,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-24 01:48:21,4268180508,8) .NET & React.js Full Stack Developer,Agnotic Technologies,True,False
+2025-07-24 01:49:37,4267450128,Sr. Backend Developer,IntraEdge,True,False
+2025-07-24 01:50:39,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:51:41,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 01:52:43,4266104287,Back End Developer,FunEx,True,False
+2025-07-24 01:53:59,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:55:01,4266771411,Full Stack Engineer,Motion,True,False
+2025-07-24 01:56:03,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 01:57:25,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 01:58:26,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 01:59:28,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 02:00:49,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:01:51,4268209490,Full Stack Developer - Frontend Focus,Tario,True,False
+2025-07-24 02:02:53,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 02:03:54,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 02:05:11,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:06:12,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 02:07:29,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:08:31,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 02:09:32,4268180508,8) .NET & React.js Full Stack Developer,Agnotic Technologies,True,False
+2025-07-24 02:10:34,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 02:11:50,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:12:52,4267281578,Associate Full Stack Developer - Technical Services,Momentus Technologies,True,False
+2025-07-24 02:13:53,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 02:14:55,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-24 02:16:11,4270979970,Full Stack Engineer,Adapts,True,False
+2025-07-24 02:17:13,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:18:15,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 02:19:16,4231655213,Senior Full Stack Engineer,Stealth Startup,True,False
+2025-07-24 02:20:33,4274559838,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-24 02:21:35,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-24 02:22:36,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-24 02:24:04,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-24 02:25:06,4271435293,Full Stack Developer - Contract,VARITE INC,True,False
+2025-07-24 02:26:08,4267527682,Senior Full Stack Java Developer,Bee Talent Solutions,True,False
+2025-07-24 02:27:24,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-24 02:28:25,4271435293,Full Stack Developer - Contract,VARITE INC,True,False
+2025-07-25 17:03:44,4275590038,Senior Software Engineer,Aiprus Software Private Limited,True,True
+2025-07-25 17:04:03,4272059227,AI Full stack Engineer,Zocket,True,True
+2025-07-25 17:04:22,4271313379,Senior Software Engineer (MERN),Three Across,True,True
+2025-07-25 17:04:49,4259950838,Senior Full Stack Developer,Aimhire,True,False
+2025-07-25 17:05:16,4262364313,Senior Full-Stack Developer (Onsite Gurugram),INNOFarms.AI,True,False
+2025-07-25 17:05:32,4272058485,Fullstack Developer 1,NxtWave,True,True
+2025-07-25 17:05:58,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 17:06:38,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 17:06:49,4267164572,Full-Stack Video Engineer – AdCut Platform,powersmy.biz,True,True
+2025-07-25 17:07:16,4272052777,Software Engineer,ITC Infotech,True,False
+2025-07-25 17:07:43,4275330809,Backend + AI Engineer,Rivi,True,False
+2025-07-25 17:08:09,4267668576,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-25 17:08:35,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-25 17:09:17,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-25 17:09:44,4270260613,Principal Full Stack Engineer – Python / React [32427],Stealth AI Startup,True,False
+2025-07-25 17:10:06,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 17:10:34,4272058427,Senior Python Developer (5+YR),Zigsaw,True,False
+2025-07-25 17:10:52,4271585111,Senior Front End Developer- React.js,Mokxa Technologies,True,True
+2025-07-25 17:11:17,4269635564,Desenvolvedor web,Beam,True,True
+2025-07-25 17:11:24,4271585111,Senior Front End Developer- React.js,Mokxa Technologies,False,False
+2025-07-25 17:12:06,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-25 17:12:28,4275580495,Software Engineer,Innova ESI,True,True
+2025-07-25 17:13:09,4262133133,Senior Software Engineer,Opsolute,True,False
+2025-07-25 17:13:36,4272008278,Python Developer,People Prime Worldwide,True,False
+2025-07-25 17:14:24,4271830266,Full stack MERN Developer,LinkYou Inc.,True,False
+2025-07-25 17:14:46,4275399137,Senior Frontend Software Engineer,Intellias,True,True
+2025-07-25 17:15:13,4266104287,Back End Developer,FunEx,True,False
+2025-07-25 17:15:54,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-25 17:16:28,4261679068,Python Developer,Delphi Consulting Middle East,True,True
+2025-07-25 17:16:50,4261679068,Python Developer,Delphi Consulting Middle East,False,False
+2025-07-25 17:17:32,4272008736,Senior Python Developer,Fittora.official,True,False
+2025-07-25 17:17:59,4271802509,Full Stack Engineer,Magic Factory,True,False
+2025-07-25 17:18:26,4270143889,Frontend Developer,VAYUZ Technologies,True,False
+2025-07-25 17:18:37,4271823905,Senior Full-Stack JavaScript Developer,Pacta Canada,True,True
+2025-07-25 17:19:19,4270167623,SDE-3,Sugary,True,False
+2025-07-25 17:19:41,4269060095,Back End Developer,MangoDesk,True,True
+2025-07-25 17:20:07,4267695758,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 17:20:34,4262882759,Senior Front-End Web Developer (HTML & Bootstrap),KBM Resorts,True,False
+2025-07-25 17:21:15,4259950838,Senior Full Stack Developer,Aimhire,True,False
+2025-07-25 17:22:33,4269128098,Software Engineer,TEK NINJAS,True,True
+2025-07-25 17:23:59,4264589482,"Full Stack Developer – PHP, AWS SES, SMTP, PowerMTA (Email Infrastructure)",Manhattan Tech Ventures,True,False
+2025-07-25 17:24:18,4275554649,Back End Developer,JustiaCore,True,True
+2025-07-25 17:25:13,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 17:25:40,4270257767,Senior Full Stack Python Engineer – Python / React [32428],Stealth AI Startup,True,False
+2025-07-25 17:26:51,4268176061,SDE,Ushta Te Consultancy Services LLP,True,False
+2025-07-25 17:28:02,4272017276,Cuda/C++ and Python Developer,People Prime Worldwide,True,False
+2025-07-25 17:28:36,4272056005,Web Developer,SearchBoxed,True,True
+2025-07-25 17:28:47,4270715212,Senior Software Engineer,Flameback Capital Private Limited,True,True
+2025-07-25 17:28:58,4257558060,Full Stack Engineer,Ditansource,True,True
+2025-07-25 17:29:40,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-25 17:30:07,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-25 17:30:49,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-25 17:31:16,4270260613,Principal Full Stack Engineer – Python / React [32427],Stealth AI Startup,True,False
+2025-07-25 17:31:43,4272058427,Senior Python Developer (5+YR),Zigsaw,True,False
+2025-07-25 17:32:39,4265416428,Web Developer,Saxon AI,True,False
+2025-07-25 17:33:21,4275330809,Backend + AI Engineer,Rivi,True,False
+2025-07-25 17:34:02,4262133133,Senior Software Engineer,Opsolute,True,False
+2025-07-25 17:34:44,4272008278,Python Developer,People Prime Worldwide,True,False
+2025-07-25 17:35:26,4271830266,Full stack MERN Developer,LinkYou Inc.,True,False
+2025-07-25 17:35:45,4268121939,Full Stack Developer,Zavy,True,True
+2025-07-25 17:36:41,4266104287,Back End Developer,FunEx,True,False
+2025-07-25 17:37:22,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-25 17:37:49,4266165583,Full Stack Engineer,Netsmart India,True,False
+2025-07-25 17:39:44,4272008736,Senior Python Developer,Fittora.official,True,False
+2025-07-25 17:40:26,4265001591,Java Fullstack Developer (AI projects),Serigor Inc,True,False
+2025-07-25 17:40:53,4268126337,"Full Stack Software Engineer (Javascript, Python)",Stealth Video Generation Startup,True,False
+2025-07-25 17:41:20,4271802509,Full Stack Engineer,Magic Factory,True,False
+2025-07-25 17:41:47,4271309952,Web Developer,Webboombaa.org,True,False
+2025-07-25 17:42:59,4245667111,Senior Back End Developer,Aakaar AI,True,False
+2025-07-25 17:43:40,4267668576,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-25 17:44:20,4267668576,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-25 17:45:17,4259950838,Senior Full Stack Developer,Aimhire,True,False
+2025-07-25 17:47:33,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-25 17:49:14,4270260552,Senior Backend Python Engineer [32426],Stealth AI Startup,True,False
+2025-07-25 17:59:50,4272062781,Software Engineer with Rust,People Prime Worldwide,True,False
+2025-07-25 18:01:01,4267666741,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-25 18:03:11,4264589482,"Full Stack Developer – PHP, AWS SES, SMTP, PowerMTA (Email Infrastructure)",Manhattan Tech Ventures,True,False
+2025-07-25 18:04:04,4265071577,Fullstack React & Node.js Developer,Cross Seven Technologies LLP,True,False
+2025-07-25 18:04:23,4270744913,Full Stack Engineer,Altysys,True,True
+2025-07-25 18:04:46,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 18:05:24,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 18:06:06,4270257767,Senior Full Stack Python Engineer – Python / React [32428],Stealth AI Startup,True,False
+2025-07-25 18:07:02,4267695758,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 18:07:27,4272069077,Full Stack Engineer,Hoichoi,True,True
+2025-07-25 18:07:54,4271181266,Full-stack (Python + React and D3) developer,United Nations,True,False
+2025-07-25 18:08:36,4270260613,Principal Full Stack Engineer – Python / React [32427],Stealth AI Startup,True,False
+2025-07-25 18:09:02,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 18:09:47,4275565087,Senior Fullstack Developer - AI Technology,Syngenta,True,False
+2025-07-25 18:10:15,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-25 18:10:41,4267695757,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 18:13:35,4269660268,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
+2025-07-25 18:14:17,4271830266,Full stack MERN Developer,LinkYou Inc.,True,False
+2025-07-25 18:14:59,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-25 18:15:41,4270746861,Senior Full Stack Android Developer (Kotlin + Spring Boot + Node.js + AWS),Waltech RV,True,False
+2025-07-25 18:17:21,4270993815,Senior Full Stack Software Engineer,de facto Infotech,True,False
+2025-07-25 18:18:03,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-25 18:18:44,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-25 18:19:11,4262364313,Senior Full-Stack Developer (Onsite Gurugram),INNOFarms.AI,True,False
+2025-07-25 18:19:38,4266104287,Back End Developer,FunEx,True,False
+2025-07-25 18:21:49,4274565497,Remote Fullstack Programmer - 17853,Turing,True,False
+2025-07-25 18:23:04,4272012339,Sr Back End Developer,Talentmatics,True,True
+2025-07-25 18:23:31,4270603401,Full Stack Developer Team Lead,Geta AI Labs Private Limited,True,False
+2025-07-25 18:25:12,4275467702,Full-Stack + Backend Developer,Kan's Technologies Global,True,False
+2025-07-25 18:26:08,4271893375,Senior MERN Stack Developer,Marktine It solutions,True,False
+2025-07-25 18:26:49,4259950838,Senior Full Stack Developer,Aimhire,True,False
+2025-07-25 18:27:31,4268209490,Full Stack Developer - Frontend Focus,Tario,True,False
+2025-07-25 18:28:42,4271566426,Full Stack Developer,Eintransport,True,False
+2025-07-25 18:31:07,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-25 18:32:54,4265942131,Full Stack Developer,CXC,True,True
+2025-07-25 18:34:35,4264589482,"Full Stack Developer – PHP, AWS SES, SMTP, PowerMTA (Email Infrastructure)",Manhattan Tech Ventures,True,False
+2025-07-25 18:35:31,4268912223,Full Stack Developer (Node.js + React),Robotics + AI-Driven EdTech,True,False
+2025-07-25 18:37:12,4266165583,Full Stack Engineer,Netsmart India,True,False
+2025-07-25 18:38:52,4269293712,Senior PHP Full Stack Developer,Latent,True,False
+2025-07-25 18:39:29,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 18:40:06,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 18:40:48,4265001591,Java Fullstack Developer (AI projects),Serigor Inc,True,False
+2025-07-25 18:41:13,4266921754,Full-stack Developer,Dyne Infotech Pvt Ltd,True,True
+2025-07-25 18:42:09,4267695758,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 18:42:36,4271181266,Full-stack (Python + React and D3) developer,United Nations,True,False
+2025-07-25 18:44:31,4271546337,Full Stack Developer,NORDEK,True,False
+2025-07-25 18:45:15,4275565087,Senior Fullstack Developer - AI Technology,Syngenta,True,False
+2025-07-25 18:45:56,4271503846,Node.js I Java script I Type Script I Backend Developer,ARSoft Consulting,True,True
+2025-07-25 18:46:18,4271503846,Node.js I Java script I Type Script I Backend Developer,ARSoft Consulting,False,False
+2025-07-25 18:47:28,4275620486,Senior Full Stack Developer - Nodejs & Angular,MAXTALENT / Maxxsavvy Business Solutions Pvt Ltd,True,False
+2025-07-25 18:47:55,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-25 18:48:37,4269660268,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
+2025-07-25 18:49:18,4270248556,Full Stack Developer,Payomatix Technologies,True,True
+2025-07-25 18:49:40,4270248556,Full Stack Developer,Payomatix Technologies,False,False
+2025-07-25 18:50:51,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-25 18:51:18,4275596111,Full Stack Engineer (VB & React),Genetic Callnet Consultancy Pvt Ltd.,True,False
+2025-07-25 18:52:00,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-25 18:52:41,4271531515,Full Stack Engineer,VelocionTech Pvt. Ltd.,True,False
+2025-07-25 18:53:23,4262364313,Senior Full-Stack Developer (Onsite Gurugram),INNOFarms.AI,True,False
+2025-07-25 18:54:04,4266104287,Back End Developer,FunEx,True,False
+2025-07-25 18:55:10,4271891828,Node.js Developer,Sengar Consultancy,True,True
+2025-07-25 18:55:32,4271891828,Node.js Developer,Sengar Consultancy,False,False
+2025-07-25 18:55:58,4270140950,Full-stack Developer,Ninexfold,True,True
+2025-07-25 18:56:25,4268527905,Full Stack Developer,Dimensionless Technologies,True,False
+2025-07-25 18:57:07,4275467702,Full-Stack + Backend Developer,Kan's Technologies Global,True,False
+2025-07-25 18:57:49,4270488941,Full Stack Developer,Attero,True,False
+2025-07-25 18:58:30,4259950838,Senior Full Stack Developer,Aimhire,True,False
+2025-07-25 18:58:57,4274109993,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-25 19:00:23,4268126337,"Full Stack Software Engineer (Javascript, Python)",Stealth Video Generation Startup,True,False
+2025-07-25 19:01:34,4271566426,Full Stack Developer,Eintransport,True,False
+2025-07-25 19:02:30,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-25 19:03:12,4275624008,Senior React.Js Developer,Atyeti Inc,True,False
+2025-07-25 19:03:48,4272076557,Full stack Developer,Brixline,True,True
+2025-07-25 19:04:30,4269634676,Senior Full Stack Developer (Python + React.Js),Sakrat,True,False
+2025-07-25 19:04:57,4272073714,Frontend Developer,Cozzera,True,False
+2025-07-25 19:05:13,4272017368,0) Full Stack Engineer,Skills Café,True,False
+2025-07-25 19:05:21,4272076557,0) Full stack Developer,Brixline,False,False
+2025-07-25 19:05:47,4271578618,Full-Stack Data Developer,Yolearn.ai,True,False
+2025-07-25 19:06:29,4274771728,Frontend Developer,LawSikho,True,False
+2025-07-25 19:06:52,4270713411,Senior Full Stack Engineer,"Wiser Solutions, Inc.",True,False
+2025-07-25 19:07:19,4264589482,"Full Stack Developer – PHP, AWS SES, SMTP, PowerMTA (Email Infrastructure)",Manhattan Tech Ventures,True,False
+2025-07-25 19:08:00,4267668576,Senior Software Engineer,Precision For Medicine,True,False
+2025-07-25 19:08:27,4267695758,Senior Software Engineer,Precision Medicine Group,True,False
+2025-07-25 19:09:00,4275620779,Sr. Software Developer(VC++/ MFC) with Product based company in Baner Pune,Seventh Contact Hiring Solutions,True,True
+2025-07-25 19:09:27,4271181266,Full-stack (Python + React and D3) developer,United Nations,True,False
+2025-07-25 19:10:09,4272062781,Software Engineer with Rust,People Prime Worldwide,True,False
+2025-07-25 19:10:39,4275565087,Senior Fullstack Developer - AI Technology,Syngenta,True,False
+2025-07-25 19:11:06,4268209490,Full Stack Developer - Frontend Focus,Tario,True,False
+2025-07-25 19:11:48,4275620486,Senior Full Stack Developer - Nodejs & Angular,MAXTALENT / Maxxsavvy Business Solutions Pvt Ltd,True,False
+2025-07-25 19:12:15,4270993815,Senior Full Stack Software Engineer,de facto Infotech,True,False
+2025-07-25 19:12:42,4266024095,Software Engineer - Full-time,Football Paradise,True,False
+2025-07-25 19:13:09,4269660268,Remote Full-Stack Developer (JS/TS) - 20414,Turing,True,False
+2025-07-25 19:14:20,4268088883,Full Stack Engineer,Bradford Jacobs,True,False
+2025-07-25 19:14:46,4275596111,Full Stack Engineer (VB & React),Genetic Callnet Consultancy Pvt Ltd.,True,False
+2025-07-25 19:15:28,4262364313,Senior Full-Stack Developer (Onsite Gurugram),INNOFarms.AI,True,False
+2025-07-25 19:15:55,4270746861,Senior Full Stack Android Developer (Kotlin + Spring Boot + Node.js + AWS),Waltech RV,True,False
+2025-07-25 19:16:22,4265001591,Java Fullstack Developer (AI projects),Serigor Inc,True,False
+2025-07-25 19:17:03,4266104287,Back End Developer,FunEx,True,False
+2025-07-25 19:17:36,4272071842,IT - Full Stack Developer,HappiMynd,True,True
+2025-07-25 19:18:33,4275467702,Full-Stack + Backend Developer,Kan's Technologies Global,True,False
+2025-07-25 19:19:15,4266151523,Full Stack Engineer,Mobileum,True,False
+2025-07-25 19:19:57,4269293712,Senior PHP Full Stack Developer,Latent,True,False
+2025-07-25 19:20:54,4266165583,Full Stack Engineer,Netsmart India,True,False
+2025-07-25 19:21:36,4270603401,Full Stack Developer Team Lead,Geta AI Labs Private Limited,True,False
+2025-07-25 19:22:18,4274109993,Remote Fullstack Engineer - 17853,Turing,True,False
+2025-07-25 19:22:59,4271340269,Freelance Software Engineer,Leading MNC,True,False
+2025-07-25 19:23:10,4269571076,"Replit Expert – Full Stack App Developer (Remote, Full-Time)",Premier Job Hub,True,True
+2025-07-25 19:24:07,4270123699,Full Stack Developer & IT Support Engineer,ZedPlus Accounting and Finance,True,False
+2025-07-25 19:24:48,4271893375,Senior MERN Stack Developer,Marktine It solutions,True,False
+2025-07-25 19:25:15,4271566426,Full Stack Developer,Eintransport,True,False
